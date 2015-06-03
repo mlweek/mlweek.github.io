@@ -27,7 +27,7 @@
 					<li class="menuItem"><a href="#speakers">Présentateurs</a></li>
 					<li class="menuItem"><a href="#schedule">Agenda</a></li>
 					<li class="menuItem"><a href="#location">Lieu</a></li>
-					
+					<li class="register"><a href="" data-reveal-id="RegisterModal">Register</a></li>
 					
 					<li class="language"><a href="/">English</a></li>
 				</ul>
@@ -38,43 +38,7 @@
 
 <!-- Reveal Modals begin -->
 <div id="RegisterModal" class="reveal-modal small" data-reveal>
-	<h3>Register</h3>
-	<form>
-		<div class="row">
-			<div class="large-6 columns">
-				<label>First Name
-				<input type="text" placeholder="First Name" />
-				</label>
-			</div>
-			<div class="large-6 columns">
-				<label>Last Name
-				<input type="text" placeholder="Last Name" />
-				</label>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="large-6 columns">
-				<label>Email
-				<input type="text" placeholder="Email" />
-				</label>
-			</div>
-			<div class="large-6 columns">
-				<label>Phone Number
-				<input type="text" placeholder="Phone Number" />
-				</label>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="large-6 columns">
-			</div>
-			<div class="large-6 columns">
-				<a data-reveal-id="ThankYou" role="button" href="#" class="button [ secondary success ]">Register</a>
-			</div>
-		</div>
-		
-	</form>
+	<h3>Merci de vous être inscrit !</h3>
 	<a class="close-reveal-modal">&#215;</a>
 </div>
 
@@ -384,7 +348,7 @@ le premier jour après une heure ou deux de pré-travail facile.</h4>
         type: 'post',
         data: $('#idnewsletter').serialize(),
         success: function(data) {
-                 alert("Merci !!!");
+                  $('#RegisterModal').foundation('reveal', 'open');
                  }
     });
 					event.preventDefault();
