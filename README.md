@@ -2,5 +2,15 @@
 
 ## Install Hexo
 ```
-npm install -g hexo-cli
+npm install hexo-cli -g
+```
+
+## Install dependencies
+```
+npm install
+```
+
+## Test local
+```
+hexo server
 ```
