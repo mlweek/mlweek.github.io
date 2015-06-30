@@ -36,5 +36,8 @@ french.contacts.phone.title = 'Téléphones';
 french.contacts.phone.english = "Anglais : +33 6 24 40 01 57";
 french.contacts.phone.french = "Français : +33 6 58 84 73 94";
 
+// footer
+french.footer = {};
+french.footer.copyright = "© Copyright ML Week. Tous droits réservés."
 
 hexo.extend.helper.register('french', function() { return french; });
