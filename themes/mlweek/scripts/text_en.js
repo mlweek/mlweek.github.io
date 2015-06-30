@@ -1,5 +1,13 @@
 var english = {};
 
+// menu
+english.menu = {};
+english.menu.home = "Home";
+english.menu.speakers = "Speakers";
+english.menu.schedule = "Schedule";
+english.menu.location = "Location";
+english.menu.language = "Français";
+
 // Banner
 english.banner = {};
 english.banner.title = 'The Machine Learning Week';

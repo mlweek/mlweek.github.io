@@ -1,5 +1,13 @@
 var french = {};
 
+// menu
+french.menu = {};
+french.menu.home = "Accueil";
+french.menu.speakers = "Présentateurs";
+french.menu.schedule = "Agenda";
+french.menu.location = "Lieu";
+french.menu.language = "french";
+
 // Banner
 french.banner = {};
 french.banner.title = "1 semaine au coeur de l'Apprentissage Automatique.";
