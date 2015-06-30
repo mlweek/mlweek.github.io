@@ -14,6 +14,37 @@ english.banner.title = 'The Machine Learning Week';
 english.banner.teaser = 'Invest 5 days to understand the foundations of machine learning.';
 english.banner.description = "Our guiding principles for the week are two: \n\nBe practical.  You'll leave with a good understanding of the major principles of machine learning.  You'll have real experience with some major ML libraries and with code examples that you wrote yourself during the course. <br><br> No hard math.  We know that for most of us, university maths courses were a while ago.  No worries!  Our goal is to get you up to speed as quickly as possible.  We emphasize intuition over theory, but you'll know enough theory to know what you're doing. <br><br> So what won't you be able to do?  Academic research will still be out of your reach.  You won't be reading to write scientific papers.  We hope you'll agree that that's an ok trade-off for coming up to speed in four days! <br><br> At the end of the week, you'll know enough to do some basic work, but, more important, you'll understand the language and principles well enough to learn more and tackle more complex problems.  The course fee includes admission to the Google Developer Group's DevFest, which includes a track of talks by expert Machine Learning practitioners.";
 
+// schedule
+english.schedule = {};
+english.schedule.title = "Schedule";
+english.schedule.details = "We'll use python as our illustrative language.  If you're a fan of python, you'll fit right in. If you don't know python yet, fear not, we won't be using advanced features of the language, and we'll be sure to provide you with enough background material before the course so that an hour or two of straight-forward pre-work will have you up to speed.";
+english.schedule.part1 = {};
+english.schedule.part1.title = "Introduction";
+english.schedule.part1.step1_title = "Basic principles, math review";
+english.schedule.part1.step1_details = "Coming soon...";
+english.schedule.part1.step2_title = "Linear regression";
+english.schedule.part1.step2_details = "Coming soon...";
+english.schedule.part1.step3_title = "Logistic regression";
+english.schedule.part1.step3_details = "Coming soon...";
+english.schedule.part1.step4_title = "Support vector machines";
+english.schedule.part1.step4_details = "Coming soon...";
+english.schedule.part1.step5_title = "Neural networks and deep learning";
+english.schedule.part1.step5_details = "Coming soon...";
+english.schedule.part1.step6_title = "Dimensionality reduction";
+english.schedule.part1.step6_details = "Coming soon...";
+english.schedule.part1.step7_title = "Anomaly detection";
+english.schedule.part1.step7_details = "Coming soon...";
+english.schedule.part1.step8_title = "Techniques for large data sets";
+english.schedule.part1.step8_details = "Coming soon...";
+english.schedule.part2 = {};
+english.schedule.part2.title = "SPECIAL TOPICS"
+english.schedule.part2.step1_title = "Image recognition";
+english.schedule.part2.step1_details = "Coming soon...";
+english.schedule.part2.step2_title = "Understanding text";
+english.schedule.part2.step2_details = "Coming soon...";
+english.schedule.part2.step3_title = "Recommender systems";
+english.schedule.part2.step3_details = "Coming soon...";
+
 // buy_tickets
 english.buy_tickets = {};
 english.buy_tickets.title = 'Buy Tickets';

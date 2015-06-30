@@ -14,6 +14,37 @@ french.banner.title = "1 semaine au coeur de l'Apprentissage Automatique.";
 french.banner.teaser = "4 jours pour comprendre les fondations de l'Apprentissage Automatique";
 french.banner.description = "Nos principes : <br><br>C'est pratique.  Vous partirez avec une bonne compréhension des principes, une expérience avec des libraries, et des exemples de code que vous avez écrit pendant le cours. <br><br> Pas besoin d'être fort en maths, le but est la pratique.  Nous penchons sur l'intuition pour mieux comprendre rapidement la théorie. <br><br> À la fin de la semaine, vous serez capable d'attaquer des tout projet sauf les plus avancés.  Plus important, vous aurez la capacité d'en apprendre plus dans les domaines précis qui vous intéressent. <br><br> Un plus !  Votre inscription comprend le GDG Devfest de vendredi, où pour la première fois il y aura un parcours apprentissage automatique."
 
+// schedule
+french.schedule = {};
+french.schedule.title = "Agenda";
+french.schedule.details = "Les travaux pratiques seront réalisés en python.  Si vous êtes déjà fan de python, vous serez sûrement à l'aise.  Mais sinon, ne vous inquiétez pas, on ne plongera pas dans les profondeur de la langue, et nous vous donnerons des tutoriels en avance pour que vous soyez opérationnel le premier jour après une heure ou deux de pré-travail facile.";
+french.schedule.part1 = {};
+french.schedule.part1.title = "Introduction";
+french.schedule.part1.step1_title = "Principes de base & Rappels mathématiques";
+french.schedule.part1.step1_details = "A venir...";
+french.schedule.part1.step2_title = "Régression linéare";
+french.schedule.part1.step2_details = "A venir...";
+french.schedule.part1.step3_title = "Régression logistique";
+french.schedule.part1.step3_details = "A venir...";
+french.schedule.part1.step4_title = "Machines à vecteurs de support";
+french.schedule.part1.step4_details = "A venir...";
+french.schedule.part1.step5_title = "Réseaux de neuronnes et deep learning (apprentissage profond)";
+french.schedule.part1.step5_details = "A venir...";
+french.schedule.part1.step6_title = "Apprentissage non-supervisé";
+french.schedule.part1.step6_details = "A venir...";
+french.schedule.part1.step7_title = "Détection d'anomalies";
+french.schedule.part1.step7_details = "A venir...";
+french.schedule.part1.step8_title = "Techniques pour de grands volumes de données";
+french.schedule.part1.step8_details = "A venir...";
+french.schedule.part2 = {};
+french.schedule.part2.title = "SUJETS AVANCES"
+french.schedule.part2.step1_title = "Reconnaissances d'images";
+french.schedule.part2.step1_details = "A venir...";
+french.schedule.part2.step2_title = "Traitement de texte";
+french.schedule.part2.step2_details = "A venir...";
+french.schedule.part2.step3_title = "Systèmes de recommendation";
+french.schedule.part2.step3_details = "A venir...";
+
 // buy_tickets
 french.buy_tickets = {};
 french.buy_tickets.title = 'Réservation';
