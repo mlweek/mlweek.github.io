@@ -33,9 +33,17 @@ french.contacts.email.title = 'Email';
 french.contacts.email.details = "jeff@ml-week.com";
 french.contacts.phone = {};
 french.contacts.phone.title = 'Téléphones';
-french.contacts.phone.english = "Anglais : +33 6 24 40 01 57";
+french.contacts.phone.french = "Anglais : +33 6 24 40 01 57";
 french.contacts.phone.french = "Français : +33 6 58 84 73 94";
 
+// mailing_list
+french.mailing_list = {};
+french.mailing_list.join = "Rejoindre la liste de diffusion :";
+french.mailing_list.name = "Nom";
+french.mailing_list.email = "Email";
+french.mailing_list.submit = "Rejoindre";
+french.mailing_list.okmsg = "Merci d'avoir rejoint la liste diffusion !";
+french.mailing_list.komsg = "Vérifier votre nom ou votre adresse email !";
 // footer
 french.footer = {};
 french.footer.copyright = "© Copyright ML Week. Tous droits réservés."

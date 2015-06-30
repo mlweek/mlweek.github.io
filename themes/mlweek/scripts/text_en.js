@@ -36,6 +36,15 @@ english.contacts.phone.title = 'Phones';
 english.contacts.phone.english = "English : +33 6 24 40 01 57";
 english.contacts.phone.french = "French : +33 6 58 84 73 94";
 
+// mailing_list
+english.mailing_list = {};
+english.mailing_list.join = "Join Mailing List:";
+english.mailing_list.name = "Name";
+english.mailing_list.email = "Email Address";
+english.mailing_list.submit = "Submit";
+english.mailing_list.okmsg = "Thank you for joining us!";
+english.mailing_list.komsg = "Please check your name and your email!";
+
 // footer
 english.footer = {};
 english.footer.copyright = "© Copyright ML Week. All Rights Reserved."
