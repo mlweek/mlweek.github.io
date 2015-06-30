@@ -8,19 +8,19 @@ french.banner.description = "Nos principes : <br><br>C'est pratique.  Vous parti
 
 // buy_tickets
 french.buy_tickets = {};
-french.buy_tickets.title = 'Buy Tickets';
+french.buy_tickets.title = 'Réservation';
 french.buy_tickets.early_bird = {};
-french.buy_tickets.early_bird.text = 'Early Bird';
+french.buy_tickets.early_bird.text = 'Prévente';
 french.buy_tickets.early_bird.deadline = 'Deadline : August 15, 2015';
-french.buy_tickets.early_bird.price = '€1700';
+french.buy_tickets.early_bird.price = '1 700 €';
 french.buy_tickets.early_bird.button = 'buy ticket';
-french.buy_tickets.early_bird.button = 'save 30%';
+french.buy_tickets.early_bird.button = '-30 %';
 
 french.buy_tickets.standard = {};
 french.buy_tickets.standard.text = 'Standard Ticket';
 french.buy_tickets.standard.deadline = '&nbsp;';
-french.buy_tickets.standard.price = '€2500';
-french.buy_tickets.standard.button = 'buy ticket';
-french.buy_tickets.standard.promo = 'new';
+french.buy_tickets.standard.price = '2 500 €';
+french.buy_tickets.standard.button = 'Réserver';
+french.buy_tickets.standard.promo = 'nouveau';
 
 hexo.extend.helper.register('french', function() { return french; });
