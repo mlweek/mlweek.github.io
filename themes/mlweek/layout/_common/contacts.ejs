@@ -2,15 +2,15 @@
 <div class="maps" id="location">
 	<div id="js-map"></div>
 	<div class="map-location">
-		<h2>Location</h2>
+		<h2><%= lang.contacts.location %></h2>
 		<ul itemscope="" itemtype="http://schema.org/PostalAddress">
-			<li class="title">Address</li>
-			<li itemprop="address">33 Rue de la Rosière d'Artois 44100 Nantes France </li>
-			<li class="title">Email Address</li>
-			<li itemprop="email">jeff@ml-week.com</li>
-			<li class="title">Phones</li>
-			<li itemprop="phone">English : +33 6 24 40 01 57</li>
-			<li itemprop="phone">French : +33 6 58 84 73 94</li>
+			<li class="title"><%= lang.contacts.address.title %></li>
+			<li itemprop="address"><%- render(lang.contacts.address.details) %> </li>
+			<li class="title"><%= lang.contacts.email.title %></li>
+			<li itemprop="email"><%= lang.contacts.email.details %></li>
+			<li class="title"><%= lang.contacts.phone.title %></li>
+			<li itemprop="phone"><%= lang.contacts.phone.english %></li>
+			<li itemprop="phone"><%= lang.contacts.phone.french %></li>
 		</ul>
 	</div>
 </div>

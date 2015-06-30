@@ -15,12 +15,26 @@ french.buy_tickets.early_bird.deadline = 'Deadline : August 15, 2015';
 french.buy_tickets.early_bird.price = '1 700 €';
 french.buy_tickets.early_bird.button = 'buy ticket';
 french.buy_tickets.early_bird.button = '-30 %';
-
 french.buy_tickets.standard = {};
 french.buy_tickets.standard.text = 'Standard Ticket';
 french.buy_tickets.standard.deadline = '&nbsp;';
 french.buy_tickets.standard.price = '2 500 €';
 french.buy_tickets.standard.button = 'Réserver';
 french.buy_tickets.standard.promo = 'nouveau';
+
+// contacts
+french.contacts = {};
+french.contacts.location = "Lieu";
+french.contacts.address = {};
+french.contacts.address.title = 'Adresse';
+french.contacts.address.details = "33 Rue de la Rosière d'Artois <br> 44100 Nantes France";
+french.contacts.email = {};
+french.contacts.email.title = 'Email';
+french.contacts.email.details = "jeff@ml-week.com";
+french.contacts.phone = {};
+french.contacts.phone.title = 'Téléphones';
+french.contacts.phone.english = "Anglais : +33 6 24 40 01 57";
+french.contacts.phone.french = "Français : +33 6 58 84 73 94";
+
 
 hexo.extend.helper.register('french', function() { return french; });
