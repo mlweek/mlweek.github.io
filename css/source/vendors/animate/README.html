@@ -1,0 +1,40 @@
+<h1 id="Animate-scss">Animate.scss</h1><p>This is a port of Dan Eden’s <a href="http://daneden.github.io/animate.css/">Animate.css</a> for SASS.</p>
+<h2 id="Doesn’t_this_already_exist_somewhere_else?">Doesn’t this already exist somewhere else?</h2><p>Yes, there are plenty of other ports of this library. Many of them aren’t very active projects and, honestly, I was just a little too lazy to submit my changes to those repositories.</p>
+<p>Also, I was looking for something a little more flexible. This version allows you to import all animations at a whopping 53kb or only import what you need. It’s a flavor thing.</p>
+<h2 id="Installing">Installing</h2><p>The default import includes all animations. </p>
+<pre><code><span class="at_rule">@<span class="keyword">import</span> <span class="string">"animate.scss"</span></span>;
+</code></pre><p>Want to pick and choose which animations are imported? Go into animate.scss and comment out what you don’t need.</p>
+<pre><code>// Always required
+@<span class="preprocessor"><span class="keyword">import</span> </span>
+  <span class="string">"_properties"</span>;
+
+// <span class="preprocessor"><span class="keyword">Import</span> the animations</span>
+@<span class="preprocessor"><span class="keyword">import</span> </span>
+  // <span class="string">"_attention/attention.scss"</span>, // This will <span class="keyword">not</span> <span class="preprocessor"><span class="keyword">import</span></span>
+  <span class="string">"_bouncing-entrances/bouncing-entrances.scss"</span>,
+  <span class="string">"_bouncing-exits/bouncing-exits.scss"</span>,
+  <span class="string">"_fading-entrances/fading-entrances.scss"</span>,
+  <span class="string">"_fading-exits/fading-exits.scss"</span>,
+  <span class="string">"_flippers/flippers.scss"</span>,
+  <span class="string">"_lightspeed/lightspeed.scss"</span>,
+  <span class="string">"_rotating-entrances/rotating-entrances.scss"</span>,
+  <span class="string">"_rotating-exits/rotating-exits.scss"</span>,
+  <span class="string">"_specials/specials.scss"</span>;
+</code></pre><p>You only want one of two of the animations? You can <code>@import</code> the specific partials in animate.scss instead (Example: <code>@import &quot;_attention/_bounce&quot;;</code>).</p>
+<h2 id="Usage">Usage</h2><p>Once your files have been added to your project and you’ve customized your <code>@imports</code>, you can start including the animations directly to your classes.</p>
+<pre><code>.your-<span class="class"><span class="keyword">class</span>-<span class="title">name</span> </span>{
+  @<span class="preprocessor"><span class="keyword">include</span> bounceIn();</span>
+}
+</code></pre><p>The mixin includes configurable options to customize the <code>delay</code>, <code>duration</code>, <code>function</code> and <code>fill-mode</code> of your animations.</p>
+<pre><code>.your-<span class="class"><span class="keyword">class</span>-<span class="title">name</span> {</span>
+  <span class="variable">@include</span> bounceIn(
+    <span class="variable">$duration</span><span class="symbol">:</span> <span class="number">1</span>s,
+    <span class="variable">$delay</span><span class="symbol">:</span> .<span class="number">2</span>s,
+    <span class="variable">$function</span><span class="symbol">:</span> ease, 
+    <span class="variable">$fill</span>-<span class="symbol">mode:</span> both
+  );
+}
+</code></pre><h2 id="Just_Want_the_CSS?">Just Want the CSS?</h2><p>You can have that too. Link up animate.css to your document <code>&lt;head&gt;</code> and add the animations like you would any class name.</p>
+<h2 id="Licenses">Licenses</h2><p>Animate.css and Animate.scss are both licensed under the MIT license. (<a href="http://opensource.org/licenses/MIT">http://opensource.org/licenses/MIT</a>)</p>
+<h2 id="Contributing">Contributing</h2><p>Feel free to submit a pull request. I’m open to animations not included in Animate.css. If you’re going to submit a pull request, please match the formatting (naming convention and file structure) and include a demo of your submission on <a href="http://www.codepen.io">CodePen</a>.</p>
+<p>Thanks!</p>
