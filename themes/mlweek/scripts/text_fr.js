@@ -6,13 +6,32 @@ french.menu.home = "Accueil";
 french.menu.speakers = "Présentateurs";
 french.menu.schedule = "Agenda";
 french.menu.location = "Lieu";
-french.menu.language = "french";
+french.menu.language = "English";
 
 // Banner
 french.banner = {};
 french.banner.title = "1 semaine au coeur de l'Apprentissage Automatique.";
 french.banner.teaser = "4 jours pour comprendre les fondations de l'Apprentissage Automatique";
 french.banner.description = "Nos principes : <br><br>C'est pratique.  Vous partirez avec une bonne compréhension des principes, une expérience avec des libraries, et des exemples de code que vous avez écrit pendant le cours. <br><br> Pas besoin d'être fort en maths, le but est la pratique.  Nous penchons sur l'intuition pour mieux comprendre rapidement la théorie. <br><br> À la fin de la semaine, vous serez capable d'attaquer des tout projet sauf les plus avancés.  Plus important, vous aurez la capacité d'en apprendre plus dans les domaines précis qui vous intéressent. <br><br> Un plus !  Votre inscription comprend le GDG Devfest de vendredi, où pour la première fois il y aura un parcours apprentissage automatique."
+
+// speakers
+french.speakers = {};
+french.speakers.title="Présentateurs";
+french.speakers.sp1 = {};
+french.speakers.sp1.fullname = "Jeff Abrahamson";
+french.speakers.sp1.avatar = "https://pbs.twimg.com/profile_images/3176479924/1bb83d535b54c80859ea70c15b83fd81.jpeg";
+french.speakers.sp1.blog = "http://jeff.purple.com/";
+french.speakers.sp1.twitter = "https://twitter.com/jeff_abrahamson";
+french.speakers.sp1.job_title = "Chief Scientist, Jellybooks";
+french.speakers.sp1.job_url = "http://jellybooks.com/";
+french.speakers.sp2 = {};
+french.speakers.sp2.fullname = "Rossi Oddet";
+french.speakers.sp2.avatar = "http://blog.roddet.com/images/photo.jpeg";
+french.speakers.sp2.blog = "http://www.dev-institut.fr";
+french.speakers.sp2.twitter = "https://twitter.com/rossioddet";
+french.speakers.sp2.job_title = "DEV INSTITUT";
+french.speakers.sp2.job_url = "http://www.dev-institut.fr";
+
 
 // schedule
 french.schedule = {};
