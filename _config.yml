@@ -70,4 +70,4 @@ theme: mlweek
 deploy:
   type: git
   repo: git@github.com:mlweek/mlweek.github.io.git
-  branch: test-deploy
+  branch: master
