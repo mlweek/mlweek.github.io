@@ -65,7 +65,15 @@ french.schedule.part2.step2_details = "A venir...";
 french.schedule.part2.step3_title = "Systèmes de recommendation";
 french.schedule.part2.step3_details = "A venir...";
 french.schedule.see_details = "Voir le détails des contenus";
-french.schedule.see_details_action = "/fr/details";
+french.schedule.see_details_action = "/fr/schedule-details";
+
+// schedule_details
+french.schedule_details = {};
+french.schedule_details.day1 = "Lundi";
+french.schedule_details.day2 = "Mardi";
+french.schedule_details.day3 = "Mercredi";
+french.schedule_details.day4 = "Jeudi";
+french.schedule_details.day5 = "Vendredi";
 
 // buy_tickets
 french.buy_tickets = {};

@@ -64,7 +64,15 @@ english.schedule.part2.step2_details = "Coming soon...";
 english.schedule.part2.step3_title = "Recommender systems";
 english.schedule.part2.step3_details = "Coming soon...";
 english.schedule.see_details = "See details";
-english.schedule.see_details_action = "/details";
+english.schedule.see_details_action = "/schedule-details";
+
+// schedule_details
+english.schedule_details = {};
+english.schedule_details.day1 = "Monday";
+english.schedule_details.day2 = "Tuesday";
+english.schedule_details.day3 = "Wednesday";
+english.schedule_details.day4 = "Thursday";
+english.schedule_details.day5 = "Friday";
 
 // buy_tickets
 english.buy_tickets = {};
