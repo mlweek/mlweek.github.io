@@ -1,0 +1,31 @@
+<!doctype html>
+<html dir="ltr" lang="en-US">
+<%- partial('_common/html_head') %>
+<body>
+  <%- partial('_common/menu', { lang: english() }) %>
+  <%- partial('_common/banner_light', { lang: english() }) %>
+  <div class="single_post">
+  	<div class="row">
+  		<div class="columns small-12 medium-12 large-12">
+  			<article>
+          <br>
+  				<h1 class="entry-title"><%= page.title %></h1>
+  				<div class="entry-excerpt">
+  					<p>
+  					    <!-- A exploiter si nécessaire -->
+          	</p>
+  				</div>
+  				<div class="entry-content">
+              <%- page.content %>
+  				</div>
+
+  			</article>
+
+  		</div>
+    </div>
+</div>
+<%- partial('_common/buy_tickets', { lang: english() }) %>
+<%- partial('_common/contacts', { lang: english() }) %>
+<%- partial('_common/footer', { lang: english() }) %>
+  <%- partial('_common/scripts_footer') %>
+</body>

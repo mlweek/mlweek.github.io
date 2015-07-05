@@ -467,6 +467,9 @@ body {
   position: relative;
   z-index: 1;
 }
+.banner_light {
+  min-height: 100px;
+}
 .banner .banner_bg {
   opacity: 0.15;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 15 ")";
