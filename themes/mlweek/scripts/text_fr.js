@@ -91,7 +91,7 @@ french.contacts.email.title = 'Email';
 french.contacts.email.details = "jeff@ml-week.com";
 french.contacts.phone = {};
 french.contacts.phone.title = 'Téléphones';
-french.contacts.phone.french = "Anglais : +33 6 24 40 01 57";
+french.contacts.phone.english = "Anglais : +33 6 24 40 01 57";
 french.contacts.phone.french = "Français : +33 6 58 84 73 94";
 
 // mailing_list
