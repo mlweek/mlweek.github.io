@@ -7,6 +7,7 @@ french.menu.speakers = "Présentateurs";
 french.menu.schedule = "Agenda";
 french.menu.location = "Lieu";
 french.menu.language = "English";
+french.menu.language_link = "/";
 
 // Banner
 french.banner = {};

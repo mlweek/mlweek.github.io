@@ -7,6 +7,7 @@ english.menu.speakers = "Speakers";
 english.menu.schedule = "Schedule";
 english.menu.location = "Location";
 english.menu.language = "Français";
+english.menu.language_link = "/fr";
 
 // Banner
 english.banner = {};
