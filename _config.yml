@@ -67,6 +67,7 @@ theme: mlweek
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
-deploy: git@github.com:mlweek/mlweek.github.io.git
+deploy:
   type: git
+  repo: git@github.com:mlweek/mlweek.github.io.git
   branch: test-deploy
