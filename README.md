@@ -14,3 +14,8 @@ npm install
 ```
 hexo server
 ```
+
+## Push in production
+```
+hexo deploy
+```
