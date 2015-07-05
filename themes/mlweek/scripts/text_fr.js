@@ -64,6 +64,8 @@ french.schedule.part2.step2_title = "Traitement de texte";
 french.schedule.part2.step2_details = "A venir...";
 french.schedule.part2.step3_title = "Systèmes de recommendation";
 french.schedule.part2.step3_details = "A venir...";
+french.schedule.see_details = "Voir le détails des contenus";
+french.schedule.see_details_action = "/fr/details";
 
 // buy_tickets
 french.buy_tickets = {};

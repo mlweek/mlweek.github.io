@@ -63,6 +63,8 @@ english.schedule.part2.step2_title = "Understanding text";
 english.schedule.part2.step2_details = "Coming soon...";
 english.schedule.part2.step3_title = "Recommender systems";
 english.schedule.part2.step3_details = "Coming soon...";
+english.schedule.see_details = "See details";
+english.schedule.see_details_action = "/details";
 
 // buy_tickets
 english.buy_tickets = {};
