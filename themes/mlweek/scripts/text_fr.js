@@ -6,6 +6,7 @@ french.menu.home = "Accueil";
 french.menu.speakers = "Présentateurs";
 french.menu.schedule = "Agenda";
 french.menu.location = "Lieu";
+french.menu.pricing = "Réserver";
 french.menu.language = "English";
 french.menu.language_link = "/";
 
