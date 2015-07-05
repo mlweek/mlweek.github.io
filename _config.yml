@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: ML-Week
 subtitle:
 description:
-author: John Doe
+author: ML Week
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.ml-week.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -67,5 +67,6 @@ theme: mlweek
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: git@github.com:mlweek/mlweek.github.io.git
+  type: git
+  branch: test-deploy
