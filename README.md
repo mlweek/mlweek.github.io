@@ -2,7 +2,8 @@
 
 ## Install Hexo
 ```
-npm install hexo-cli -g
+mkdir node-modules
+npm install hexo-cli
 ```
 
 ## Install dependencies
