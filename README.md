@@ -5,7 +5,8 @@
 npm install hexo-cli -g    # prod
 ```
 ou
-```npm install hexo-cli
+```
+npm install hexo-cli
 ```
 
 ## Install dependencies
