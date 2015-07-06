@@ -7,7 +7,7 @@ french.menu.speakers = "Présentateurs";
 french.menu.schedule = "Agenda";
 french.menu.location = "Lieu";
 french.menu.pricing = "Réserver";
-french.menu.language = "English";
+french.menu.language = "french";
 french.menu.language_link = "/";
 
 // Banner
@@ -76,6 +76,16 @@ french.schedule_details.day3 = "Mercredi";
 french.schedule_details.day4 = "Jeudi";
 french.schedule_details.day5 = "Vendredi";
 
+// visit_nantes
+french.visit_nantes = {};
+french.visit_nantes.location_name = "La Rosière";
+french.visit_nantes.location_details = "Au coeur de Nantes, nous passerons nos journées d'études dans un hôtel particulier récemment rénové.  Quelque soit l'hébergement que vous choisissez, vous aurez la possiblité d'y rendre à pied ou transport en commun.  Et puis, tout Nantes vous attend le soir.  Il y aura même la possibilité qu'on organise une soirée ensemble au restaurant pour ceux qui s'y intéressent (pas compris dans le prix)."
+french.visit_nantes.nantes = "Nantes";
+french.visit_nantes.nantes_details = "Nantes se trouve sur la Loire où le chemin de fer a trouvé le port maritime.  C'était également le siège des ducs de Bretagne dont son château témoigne. Aujourd'hui la ville mélange sa charme historique avec un air tout à fait moderne.  La ville natale de Jules Vernes a bien sûr son éléphant robotique, mais également son château, une vie au fil de l'eau grace aux multiples rivières qui traversent le métropole, et toutes ses commerces et restaurants qui rendent tellement agréable et sympa la vie nantaise.  Nous ne sommes bien évidemment pas sans nos avis là-dessus.";
+french.visit_nantes.loire_atlantique = "Loire-Atlantique";
+french.visit_nantes.loire_atlantique_details = "Si vous venez de loin, n'oubliez pas que vous serez à une heure des magnifiques plages de Noirmoutier, des vignobles de la Loire, des ballades en campagne, et une infrastructure culturelle très riche.  Et puis, la Vallée de la Loire fait partie du Patrimoine Mondial UNESCO.  Un peu plus loin se trouve le côte nord breton, ses charmantes ville (St Malo, Dinard, Dinan, ...) et même le Mont Saint Michel.  Comment vous passez vos week-ends, c'est à vous, mais nous nous permettons de vous semer quelques idées..."
+
+
 // buy_tickets
 french.buy_tickets = {};
 french.buy_tickets.title = 'Réservation';
@@ -103,7 +113,7 @@ french.contacts.email.title = 'Email';
 french.contacts.email.details = "jeff@ml-week.com";
 french.contacts.phone = {};
 french.contacts.phone.title = 'Téléphones';
-french.contacts.phone.english = "Anglais : +33 6 24 40 01 57";
+french.contacts.phone.french = "Anglais : +33 6 24 40 01 57";
 french.contacts.phone.french = "Français : +33 6 58 84 73 94";
 
 // mailing_list

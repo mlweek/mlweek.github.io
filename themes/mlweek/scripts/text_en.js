@@ -75,6 +75,16 @@ english.schedule_details.day3 = "Wednesday";
 english.schedule_details.day4 = "Thursday";
 english.schedule_details.day5 = "Friday";
 
+// visit_nantes
+english.visit_nantes = {};
+english.visit_nantes.location_name = "La Rosière";
+english.visit_nantes.location_details = "During the four days of the course we will spend our days in an exquisite 19th century mansion in the heart of Nantes.  Whatever accommodation you choose, you’ll be a short walk or tram/bus ride from the Rosière.  In the evenings, explore Nantes.  If there is interest, we can organize a group dinner or outing (extra)."
+english.visit_nantes.nantes = "Nantes";
+english.visit_nantes.nantes_details = "Nantes is located on the Loire where (in the 19th century) the railroad met shipping.  Maritime activities and its port drove the economy well into the 20th century.  Earlier, it was one of the seats of the Duchy of Brittany. Today, the city rests on more modern underpinnings.  Whether it’s a robotic elephant (Jules Vernes influence), a Breton château, scenic walks along the many rivers that cross the city, or the bustling commerce, quaint streets, and excellent gastronomy of a medium French city, Nantes is well worth the visit.  We might be biased on these points.";
+english.visit_nantes.loire_atlantique = "Loire-Atlantique";
+english.visit_nantes.loire_atlantique_details = "If you’re visiting from afar, we’d be remiss not to mention that we are an hour’s drive from picturesque beaches, from vineyards, from charming country walks, and not a few cultural institutions.  Oh, and the Loire Valley is a UNESCO World Heritage Site.  A bit further afield is the stunning north Breton coast and the Mont Saint Michel.  How you spend your weekend is your own business, but, well, think about it, ok?";
+
+
 // buy_tickets
 english.buy_tickets = {};
 english.buy_tickets.title = 'Buy Tickets';
