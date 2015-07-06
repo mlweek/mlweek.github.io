@@ -23,6 +23,11 @@ ou
 ./node_modules/hexo/bin/hexo server
 ```
 
+Sur ubuntu, l'application s'appelle nodejs et pas node.  Il faut donc préciser l'interpréteur:
+```
+nodejs ./node_modules/hexo/bin/hexo server
+```
+
 ## Push in production
 ```
 hexo deploy
