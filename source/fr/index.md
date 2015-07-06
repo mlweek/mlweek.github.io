@@ -1,2 +1,0 @@
-layout: index_fr
----
