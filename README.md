@@ -2,7 +2,10 @@
 
 ## Install Hexo
 ```
-npm install hexo-cli -g
+npm install hexo-cli -g    # prod
+```
+ou
+```npm install hexo-cli
 ```
 
 ## Install dependencies
@@ -12,7 +15,11 @@ npm install
 
 ## Test local
 ```
-hexo server
+hexo server    # prod
+```
+ou
+```
+./node_modules/hexo/bin/hexo server
 ```
 
 ## Push in production
