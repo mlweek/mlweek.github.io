@@ -3,7 +3,7 @@ var english = {};
 // menu
 english.menu = {};
 english.menu.home = "Home";
-english.menu.speakers = "Speakers";
+english.menu.speakers = "Instructors";
 english.menu.schedule = "Schedule";
 english.menu.location = "Location";
 english.menu.pricing = "Pricing";
@@ -18,7 +18,7 @@ english.banner.description = "Our guiding principles for the week are two: \n\nB
 
 // speakers
 english.speakers = {};
-english.speakers.title="Speakers";
+english.speakers.title="Instructors";
 english.speakers.sp1 = {};
 english.speakers.sp1.fullname = "Jeff Abrahamson";
 english.speakers.sp1.avatar = "https://pbs.twimg.com/profile_images/3176479924/1bb83d535b54c80859ea70c15b83fd81.jpeg";
