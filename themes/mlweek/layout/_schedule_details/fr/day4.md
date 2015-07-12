@@ -1,16 +1,16 @@
-These are all topics that have advanced enormously in the past decade.  We’ll talk about how they used to look and how they look now, so if you find yourself talking to someone not current in the field, you’ll know how to respond.
+Nous allons aborder ce jour des sujets qui ont fait progresser énormément l'apprentissage automatique dans la dernière décennie.
 
-## Image recognition
-We’ll do a quick survey of some of the main techniques for image recognition, then we’ll build an image classifier.
+## La reconnaissance d'image
+Après une vue d'ensemble des principales techniques de reconnaissance d'image,  nous construirons un classificateur d'image.
 
-## Handwriting recognition
-We’ll talk about some of the principle means for identifying handwriting (and what the issues and trade-offs are), then we’ll build a tool to identify handwritten text.
+## Reconnaissance de l'écriture
+Nous aborderons les principaux moyens pour identifier l'écriture (les enjeux et les compromis), puis nous construirons un outil pour identifier un texte manuscrit.
 
-## Understanding text
-What can we say about text?  We’ll look at summarization, sentiment analysis, and a few other features based on how much time we have and what our interest level is.
+## Comprendre un texte
+Que pouvons-nous dire au sujet du texte ? Nous allons examiner le résumé, l'analyse des sentiments, et quelques autres fonctionnalités en fonction du temps et vos centres d'intérêt.
 
-## Detecting spam
-Spam detection is one of the canonical examples of machine learning.  So we’ll have a look, then we’ll build a spam classifier.
+## Détecter les spam
+Détecter les spam est l'un des exemples canoniques de l'apprentissage machine. Nous construirons un classificateur de spam.
 
-## Recommender systems
-Recommendation is more than just Amazon offering to sell you things.  It’s also the articles in your social media feeds and search results everywhere.  We’ll have a look at the major techniques for recommendation (including Amazon’s techniques).  And then we’ll build a recommender.
+## Les systèmes de recommandation
+Recommander ce n'est pas uniquement quand Amazon vous propose des produits. Il s'agit également d'articles dans vos flux de médias sociaux et des résultats de recherche. Nous aurons un regard sur les principales techniques de recommandation (y compris les techniques d'Amazon). Et puis nous construirons un système de recommandation.

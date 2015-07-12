@@ -1,22 +1,30 @@
-## Basic principles, math review
-What is machine learning?  We’ll discuss the broad strokes of the subject in order to understand how to approach different problems: supervised and unsupervised learning, reinforcement learning, linear and non-linear classifiers.  How do we transform real-world problems into the formalisms that permit us to apply machine learning and use computers to solve problems?
-We’ll follow with a quick review of probability, statistics, and linear algebra.  Our focus is on intuition, so no worries if this was hard at university: we'll draw some pictures and get you painlessly up to speed!
+## Principes de base & Rappels mathématiques
+Qu'est-ce que l'apprentissage de la machine ?
+Nous allons échanger sur les grandes lignes du sujet afin de comprendre comment aborder différents problèmes :
+* apprentissage supervisé et non supervisé,
+* apprentissage par renforcement,
+* classificateurs linéaires et non-linéaires
 
-## Linear regression
-Model the relationship between real-valued variables.  Use the model to predict unknown values and to understand the strength of your prediction.  When it comes to modeling continuous variables, linear regression is often the first tool to use, and simple variations of it address a surprisingly large array of problems.
+Comment pouvons-nous transformer problèmes du monde réel dans les formalismes qui nous permettent d'appliquer l'apprentissage machine et utilisent des systèmes informatiques pour résoudre les problèmes?
 
-![Linear Regression](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
+Nous effectuerons un révision rapide des notions de probabilités, des statistiques et l'algèbre linéaire. Si ces notions vous rappellent de mauvais souvenirs de l'Université, pas de panique, nous ferons en sorte que cette remise à niveau se fasse sans douleur grace à des schémas intuitifs.
+
+## Régression Linéaire
+Modéliser la relation entre les variables à valeurs réelles. Utilisez un modèle pour prédire des valeurs inconnues et de comprendre la force de votre prédiction.
+Au moment de la modélisation de variables continues, la régression linéaire est souvent le premier outil à utiliser, et de simples variations permettent de  traiter un nombre étonnamment important de problèmes.
+
+![Régression linéraire](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
 ![Polyreg_scheffe](https://upload.wikimedia.org/wikipedia/commons/8/8b/Polyreg_scheffe.svg)
 
 Image source: Wikimedia Commons
 
-## Logistic regression
-Logistic regression is a work horse of machine learning and with minor variations will take us all the way to neural networks and deep learning.  It is a probabilistic model for separating (distinguishing) categorical variables.  We build separators in order to predict or classify.  Examples include predicting disease, elections, and engineering failures (exploding rockets, …).
+## Régression logistique
+La régression logistique est un cheval de travail de l'apprentissage automatique. Des variations mineures vont nous emmener sur le chemin des réseaux de neurones et l'apprentissage en profondeur. Il s'agit de modèle probabiliste pour séparer variables catégorielles. Nous construirons des séparateurs afin de prédire ou classer. Les exemples incluent la maladie prédire, les élections et les échecs d'ingénierie (fusées explosent, ...).
 
-Source: http://www.cs.cmu.edu/~ggordon/IRLS-example/
+Pour en savoir plus : http://www.cs.cmu.edu/~ggordon/IRLS-example/
 
-## Support Vector Machines (SVM)
-On the road from logistic regression to neural networks, an extraordinarily useful tool is the support vector machine, also known as a large margin classifier. Until very recently, SVM was the best known technique for many tasks, among them handwriting recognition (which we will revisit during Special Topics Day on Thursday).  We’ll finish our day Monday be looking at how this algorithm works and what we can do with it.
+## Machines à vecteurs de support (SVM)
+Sur la route de régression logistique pour réseaux de neurones, un outil extraordinairement utile est la machine à vecteurs de support, aussi connu comme un grand classificateur de marge. Jusqu'à très récemment, SVM est la technique la plus connue pour de nombreuses tâches, parmi elles la reconnaissance d'écriture manuscrite (nous reviendrons au cours thèmes spéciaux de la journée du jeudi). Nous terminerons notre journée de lundi sur la façon dont cet algorithme fonctionne et ce que nous pouvons faire avec elle.
 ![Linear-svm-scatterplot](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Linear-svm-scatterplot.svg/720px-Linear-svm-scatterplot.svg.png)
 ![Kernel_Machine](https://upload.wikimedia.org/wikipedia/commons/1/1b/Kernel_Machine.png)
 
