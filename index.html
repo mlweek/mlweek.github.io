@@ -35,9 +35,10 @@
 				<div class="navmobile"><a href=""></a></div>
 				<ul class="nav-menu">
 					<li class="menuItem"><a href="#home">Home</a></li>
-					<li class="menuItem"><a href="#speakers">Speakers</a></li>
+					<li class="menuItem"><a href="#speakers">Instructors</a></li>
 					<li class="menuItem"><a href="#schedule">Schedule</a></li>
 					<li class="menuItem"><a href="#location">Location</a></li>
+					<li class="menuItem"><a href="#pricing">Pricing</a></li>
 					<li class="language"><a href="/fr">Français</a></li>
 				</ul>
 			</div>
@@ -114,7 +115,7 @@ Be practical.  You'll leave with a good understanding of the major principles of
 	<div class="row">
 		<div class="columns small-12 medium-12 large-12">
 			<div class="center-content">
-				<h2>Speakers</h2>
+				<h2>Instructors</h2>
 				<div class="">
 					<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
 						<!-- First Speacker -->
@@ -192,81 +193,16 @@ Be practical.  You'll leave with a good understanding of the major principles of
 								</div>
 							</div>
 							<div class="content">
-								<dl class="accordion" data-accordion>
-
-									<dd class="accordion-navigation">
-									<a href="#panel1">
-										<div class="event-title large-8"> Basic principles, math review</div>
-									</a>
-									<div id="panel1" class="content">
-										Coming soon...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel2">
-										<div class="event-title large-8"> Linear regression</div>
-									</a>
-									<div id="panel2" class="content">
-										Coming soon...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel3">
-										<div class="event-title large-8"> Logistic regression</div>
-									</a>
-									<div id="panel3" class="content">
-										Coming soon...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel4">
-										<div class="event-title large-8"> Support vector machines</div>
-									</a>
-									<div id="panel4" class="content">
-										Coming soon...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel5">
-										<div class="event-title large-8"> Neural networks and deep learning</div>
-									</a>
-									<div id="panel5" class="content">
-										Coming soon...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel6">
-										<div class="event-title large-8"> Dimensionality reduction</div>
-									</a>
-									<div id="panel6" class="content">
-										Coming soon...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel7">
-										<div class="event-title large-8"> Anomaly detection</div>
-									</a>
-									<div id="panel7" class="content">
-										Coming soon...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel8">
-										<div class="event-title large-8"> Techniques for large data sets</div>
-									</a>
-									<div id="panel8" class="content">
-										Coming soon...
-									</div>
-									</dd>
-
-								</dl>
+									<ul class="event-title large-8" style="list-style-type:none">
+										<li >Basic principles, math review</li>
+										<li>Linear regression</li>
+										<li>Logistic regression</li>
+										<li>Support vector machines</li>
+										<li>Neural networks and deep learning</li>
+										<li>Dimensionality reduction</li>
+										<li>Anomaly detection</li>
+										<li>Techniques for large data sets</li>
+									</ul>
 							</div>
 						</div>
 					</li>
@@ -282,40 +218,24 @@ Be practical.  You'll leave with a good understanding of the major principles of
 								</div>
 							</div>
 							<div class="content">
-								<dl class="accordion" data-accordion>
-									<dd class="accordion-navigation">
-									<a href="#panel9">
-										<div class="event-title large-8"> Image recognition </div>
-									</a>
-									<div id="panel9" class="content">
-										Coming soon...
-									</div>
-									</dd>
-									<dd class="accordion-navigation">
-									<a href="#panel10">
-										<div class="event-title large-8">  Understanding text   </div>
-									</a>
-									<div id="panel10" class="content">
-										Coming soon...
-									</div>
-									</dd>
-									<dd class="accordion-navigation">
-									<a href="#panel11">
-										<div class="event-title large-8">Recommender systems</div>
-									</a>
-									<div id="panel11" class="content">
-										Coming soon...
-									</div>
-									</dd>
-								</dl>
+								<ul class="event-title large-8" style="list-style-type:none">
+									<li>Image recognition</li>
+									<li>Understanding text</li>
+									<li>Recommender systems</li>
+								</ul>
 							</div>
 						</div>
 					</li>
-
-
 				</ul>
 
 			</div>
+		</div>
+		<div class="row">
+<div class="columns small-12 medium-12 large-12 center-content">
+	<form action="/schedule-details" method="get">
+			<button class="btn-default" >See details</button>
+	</form>
+</div>
 		</div>
 	</div>
 </div>
@@ -375,9 +295,115 @@ Be practical.  You'll leave with a good understanding of the major principles of
 	</div>
 </div>
 
+
+<!-- Contact us / Map -->
+<div class=" widget-content" id="location">
+<div class="row center-content">
+<div class="columns small-12 medium-12 large-12">
+<h2>Location</h2>
+</div>
+</div>
+</div>
+<div class="maps">
+	<div id="js-map"></div>
+	<div class="map-location">
+		<h2>Location</h2>
+		<ul itemscope="" itemtype="http://schema.org/PostalAddress">
+			<li class="title">Address</li>
+			<li itemprop="address">33 Rue de la Rosière d'Artois <br> 44100 Nantes France </li>
+			<li class="title">Email Address</li>
+			<li itemprop="email">jeff@ml-week.com</li>
+			<li class="title">Phones</li>
+			<li itemprop="phone">English : +33 6 24 40 01 57</li>
+			<li itemprop="phone">French : +33 6 58 84 73 94</li>
+		</ul>
+	</div>
+</div>
+
+<script type="text/javascript">
+var wplMap = {Lat : 47.214071, Long:-1.567878};
+var wplMarker = {Lat : 47.214071, Long: -1.567878};
+</script>
+
+<div class=" widget-content" id="visit">
+		<div class="row center-content">
+	<div class="columns small-12 medium-12 large-12">
+<h2>La Rosière</h2>
+<h4 style="text-align:left">During the four days of the course we will spend our days in an exquisite 19th century mansion in the heart of Nantes.  Whatever accommodation you choose, you’ll be a short walk or tram/bus ride from the Rosière.  In the evenings, explore Nantes.  If there is interest, we can organize a group dinner or outing (extra).
+</h4>
+</div>
+</div>
+	<div class="row">
+		<div class="columns small-12 medium-12 large-12">
+			<div class="columns small-12 medium-6 large-6">
+
+		<img src="/images/location/rosiere-1.jpg" width="700" height="240" alt="Img">
+<hr>
+		<img src="/images/location/rosiere-2.jpg" width="700" height="240" alt="Img">
+		 </div>
+	<div class="columns small-12 medium-6 large-6">
+
+				<img src="/images/location/rosiere-3.jpg" width="700" height="240" alt="Img">
+		<hr>
+				<img src="/images/location/rosiere-4.jpg" width="700" height="240" alt="Img">
+			</div>
+		</div>
+
+</div>
+	</div>
+
+<div class=" widget-content" data-stellar-background-ratio="0.2" style="background-color:black; background-image: url('/images/bg_buytikets.png');">
+		<div class="row center-content">
+	<div class="columns small-12 medium-12 large-12">
+<h2  style="color:#cccccc">Nantes</h2>
+<h4 style="text-align:left ;color:#cccccc ">	Nantes is located on the Loire where (in the 19th century) the railroad met shipping.  Maritime activities and its port drove the economy well into the 20th century.  Earlier, it was one of the seats of the Duchy of Brittany. Today, the city rests on more modern underpinnings.  Whether it’s a robotic elephant (Jules Vernes influence), a Breton château, scenic walks along the many rivers that cross the city, or the bustling commerce, quaint streets, and excellent gastronomy of a medium French city, Nantes is well worth the visit.  We might be biased on these points.</h4>
+</div>
+</div>
+	<div class="row">
+		<div class="columns small-12 medium-12 large-12">
+			<div class="columns small-12 medium-6 large-6">
+
+		<img src="/images/location/nantes-1.jpg" width="700" height="240" alt="Img">
+ </div>
+	<div class="columns small-12 medium-6 large-6">
+
+				<img src="/images/location/nantes-2.jpg" width="700" height="240" alt="Img">
+	</div>
+		</div>
+
+</div>
+
+
+			</div>
+
+			<div class=" widget-content" >
+					<div class="row center-content">
+				<div class="columns small-12 medium-12 large-12">
+			<h2>Loire-Atlantique</h2>
+			<h4 style="text-align:left">If you’re visiting from afar, we’d be remiss not to mention that we are an hour’s drive from picturesque beaches, from vineyards, from charming country walks, and not a few cultural institutions.  Oh, and the Loire Valley is a UNESCO World Heritage Site.  A bit further afield is the stunning north Breton coast and the Mont Saint Michel.  How you spend your weekend is your own business, but, well, think about it, ok?</h4>
+			</div>
+			</div>
+				<div class="row">
+					<div class="columns small-12 medium-12 large-12">
+						<div class="columns small-12 medium-6 large-6">
+
+					<img src="/images/location/loire-1.jpg" width="700" height="240" alt="Img">
+			 </div>
+				<div class="columns small-12 medium-6 large-6">
+
+							<img src="/images/location/loire-2.jpg" width="700" height="240" alt="Img">
+				</div>
+					</div>
+
+			</div>
+
+
+						</div>
+
+
 <!-- Buy tickets -->
 <div class="buytickets  widget-content" id="pricing">
-	<div class="buytickets_bg" data-stellar-background-ratio="0.2" style="background-image: url('images/bg_buytikets.png');"></div>
+	<div class="buytickets_bg" data-stellar-background-ratio="0.2" style="background-image: url('/images/bg_buytikets.png');"></div>
 	<div class="row">
 		<div class="columns small-12 medium-12 large-12">
 			<div class="center-content">
@@ -395,10 +421,10 @@ Be practical.  You'll leave with a good understanding of the major principles of
 									Deadline : August 15, 2015
 							 </div>
 								<div class="btn_buy_ticket">
-									<a class="btn-default" href="https://www.eventbrite.fr/e/billets-ml-week-17558237160">save 30%</a>
+									<a class="btn-default" href="https://www.eventbrite.fr/e/billets-ml-week-17558237160">buy ticket</a>
 								</div>
 								<div class="promo">
-									<div class="save">undefined</div>
+									<div class="save">save 30%</div>
 								</div>
 							</div>
 						</li>
@@ -428,26 +454,6 @@ Be practical.  You'll leave with a good understanding of the major principles of
 	</div>
 </div>
 
-<!-- Contact us / Map -->
-<div class="maps" id="location">
-	<div id="js-map"></div>
-	<div class="map-location">
-		<h2>Location</h2>
-		<ul itemscope="" itemtype="http://schema.org/PostalAddress">
-			<li class="title">Address</li>
-			<li itemprop="address">33 Rue de la Rosière d'Artois <br> 44100 Nantes France </li>
-			<li class="title">Email Address</li>
-			<li itemprop="email">jeff@ml-week.com</li>
-			<li class="title">Phones</li>
-			<li itemprop="phone">English : +33 6 24 40 01 57</li>
-			<li itemprop="phone">French : +33 6 58 84 73 94</li>
-		</ul>
-	</div>
-</div>
-<script type="text/javascript">
-var wplMap = {Lat : 47.214071, Long:-1.567878};
-var wplMarker = {Lat : 47.214071, Long: -1.567878};
-</script>
 
 <!-- Footer -->
 <div class="footer">

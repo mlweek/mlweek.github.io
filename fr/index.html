@@ -38,6 +38,7 @@
 					<li class="menuItem"><a href="#speakers">Présentateurs</a></li>
 					<li class="menuItem"><a href="#schedule">Agenda</a></li>
 					<li class="menuItem"><a href="#location">Lieu</a></li>
+					<li class="menuItem"><a href="#pricing">Réserver</a></li>
 					<li class="language"><a href="/">English</a></li>
 				</ul>
 			</div>
@@ -190,81 +191,16 @@
 								</div>
 							</div>
 							<div class="content">
-								<dl class="accordion" data-accordion>
-
-									<dd class="accordion-navigation">
-									<a href="#panel1">
-										<div class="event-title large-8"> Principes de base &amp; Rappels mathématiques</div>
-									</a>
-									<div id="panel1" class="content">
-										A venir...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel2">
-										<div class="event-title large-8"> Régression linéare</div>
-									</a>
-									<div id="panel2" class="content">
-										A venir...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel3">
-										<div class="event-title large-8"> Régression logistique</div>
-									</a>
-									<div id="panel3" class="content">
-										A venir...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel4">
-										<div class="event-title large-8"> Machines à vecteurs de support</div>
-									</a>
-									<div id="panel4" class="content">
-										A venir...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel5">
-										<div class="event-title large-8"> Réseaux de neuronnes et deep learning (apprentissage profond)</div>
-									</a>
-									<div id="panel5" class="content">
-										A venir...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel6">
-										<div class="event-title large-8"> Apprentissage non-supervisé</div>
-									</a>
-									<div id="panel6" class="content">
-										A venir...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel7">
-										<div class="event-title large-8"> Détection d&#39;anomalies</div>
-									</a>
-									<div id="panel7" class="content">
-										A venir...
-									</div>
-									</dd>
-
-									<dd class="accordion-navigation">
-									<a href="#panel8">
-										<div class="event-title large-8"> Techniques pour de grands volumes de données</div>
-									</a>
-									<div id="panel8" class="content">
-										A venir...
-									</div>
-									</dd>
-
-								</dl>
+									<ul class="event-title large-8" style="list-style-type:none">
+										<li >Principes de base &amp; Rappels mathématiques</li>
+										<li>Régression linéare</li>
+										<li>Régression logistique</li>
+										<li>Machines à vecteurs de support</li>
+										<li>Réseaux de neuronnes et deep learning (apprentissage profond)</li>
+										<li>Apprentissage non-supervisé</li>
+										<li>Détection d&#39;anomalies</li>
+										<li>Techniques pour de grands volumes de données</li>
+									</ul>
 							</div>
 						</div>
 					</li>
@@ -280,40 +216,24 @@
 								</div>
 							</div>
 							<div class="content">
-								<dl class="accordion" data-accordion>
-									<dd class="accordion-navigation">
-									<a href="#panel9">
-										<div class="event-title large-8"> Reconnaissances d&#39;images </div>
-									</a>
-									<div id="panel9" class="content">
-										A venir...
-									</div>
-									</dd>
-									<dd class="accordion-navigation">
-									<a href="#panel10">
-										<div class="event-title large-8">  Traitement de texte   </div>
-									</a>
-									<div id="panel10" class="content">
-										A venir...
-									</div>
-									</dd>
-									<dd class="accordion-navigation">
-									<a href="#panel11">
-										<div class="event-title large-8">Systèmes de recommendation</div>
-									</a>
-									<div id="panel11" class="content">
-										A venir...
-									</div>
-									</dd>
-								</dl>
+								<ul class="event-title large-8" style="list-style-type:none">
+									<li>Reconnaissances d&#39;images</li>
+									<li>Traitement de texte</li>
+									<li>Systèmes de recommendation</li>
+								</ul>
 							</div>
 						</div>
 					</li>
-
-
 				</ul>
 
 			</div>
+		</div>
+		<div class="row">
+<div class="columns small-12 medium-12 large-12 center-content">
+	<form action="/fr/schedule-details" method="get">
+			<button class="btn-default" >Voir le détail des contenus</button>
+	</form>
+</div>
 		</div>
 	</div>
 </div>
@@ -373,9 +293,115 @@
 	</div>
 </div>
 
+
+<!-- Contact us / Map -->
+<div class=" widget-content" id="location">
+<div class="row center-content">
+<div class="columns small-12 medium-12 large-12">
+<h2>Lieu</h2>
+</div>
+</div>
+</div>
+<div class="maps">
+	<div id="js-map"></div>
+	<div class="map-location">
+		<h2>Lieu</h2>
+		<ul itemscope="" itemtype="http://schema.org/PostalAddress">
+			<li class="title">Adresse</li>
+			<li itemprop="address">33 Rue de la Rosière d'Artois <br> 44100 Nantes France </li>
+			<li class="title">Email</li>
+			<li itemprop="email">jeff@ml-week.com</li>
+			<li class="title">Téléphones</li>
+			<li itemprop="phone">undefined</li>
+			<li itemprop="phone">Français : +33 6 58 84 73 94</li>
+		</ul>
+	</div>
+</div>
+
+<script type="text/javascript">
+var wplMap = {Lat : 47.214071, Long:-1.567878};
+var wplMarker = {Lat : 47.214071, Long: -1.567878};
+</script>
+
+<div class=" widget-content" id="visit">
+		<div class="row center-content">
+	<div class="columns small-12 medium-12 large-12">
+<h2>La Rosière</h2>
+<h4 style="text-align:left">Au coeur de Nantes, nous passerons nos journées d&#39;études dans un hôtel particulier récemment rénové.  Quelque soit l&#39;hébergement que vous choisissez, vous aurez la possiblité d&#39;y rendre à pied ou transport en commun.  Et puis, tout Nantes vous attend le soir.  Il y aura même la possibilité qu&#39;on organise une soirée ensemble au restaurant pour ceux qui s&#39;y intéressent (pas compris dans le prix).
+</h4>
+</div>
+</div>
+	<div class="row">
+		<div class="columns small-12 medium-12 large-12">
+			<div class="columns small-12 medium-6 large-6">
+
+		<img src="/images/location/rosiere-1.jpg" width="700" height="240" alt="Img">
+<hr>
+		<img src="/images/location/rosiere-2.jpg" width="700" height="240" alt="Img">
+		 </div>
+	<div class="columns small-12 medium-6 large-6">
+
+				<img src="/images/location/rosiere-3.jpg" width="700" height="240" alt="Img">
+		<hr>
+				<img src="/images/location/rosiere-4.jpg" width="700" height="240" alt="Img">
+			</div>
+		</div>
+
+</div>
+	</div>
+
+<div class=" widget-content" data-stellar-background-ratio="0.2" style="background-color:black; background-image: url('/images/bg_buytikets.png');">
+		<div class="row center-content">
+	<div class="columns small-12 medium-12 large-12">
+<h2  style="color:#cccccc">Nantes</h2>
+<h4 style="text-align:left ;color:#cccccc ">	Nantes se trouve sur la Loire où le chemin de fer a trouvé le port maritime.  C&#39;était également le siège des ducs de Bretagne dont son château témoigne. Aujourd&#39;hui la ville mélange sa charme historique avec un air tout à fait moderne.  La ville natale de Jules Vernes a bien sûr son éléphant robotique, mais également son château, une vie au fil de l&#39;eau grace aux multiples rivières qui traversent le métropole, et toutes ses commerces et restaurants qui rendent tellement agréable et sympa la vie nantaise.  Nous ne sommes bien évidemment pas sans nos avis là-dessus.</h4>
+</div>
+</div>
+	<div class="row">
+		<div class="columns small-12 medium-12 large-12">
+			<div class="columns small-12 medium-6 large-6">
+
+		<img src="/images/location/nantes-1.jpg" width="700" height="240" alt="Img">
+ </div>
+	<div class="columns small-12 medium-6 large-6">
+
+				<img src="/images/location/nantes-2.jpg" width="700" height="240" alt="Img">
+	</div>
+		</div>
+
+</div>
+
+
+			</div>
+
+			<div class=" widget-content" >
+					<div class="row center-content">
+				<div class="columns small-12 medium-12 large-12">
+			<h2>Loire-Atlantique</h2>
+			<h4 style="text-align:left">Si vous venez de loin, n&#39;oubliez pas que vous serez à une heure des magnifiques plages de Noirmoutier, des vignobles de la Loire, des ballades en campagne, et une infrastructure culturelle très riche.  Et puis, la Vallée de la Loire fait partie du Patrimoine Mondial UNESCO.  Un peu plus loin se trouve le côte nord breton, ses charmantes ville (St Malo, Dinard, Dinan, ...) et même le Mont Saint Michel.  Comment vous passez vos week-ends, c&#39;est à vous, mais nous nous permettons de vous semer quelques idées...</h4>
+			</div>
+			</div>
+				<div class="row">
+					<div class="columns small-12 medium-12 large-12">
+						<div class="columns small-12 medium-6 large-6">
+
+					<img src="/images/location/loire-1.jpg" width="700" height="240" alt="Img">
+			 </div>
+				<div class="columns small-12 medium-6 large-6">
+
+							<img src="/images/location/loire-2.jpg" width="700" height="240" alt="Img">
+				</div>
+					</div>
+
+			</div>
+
+
+						</div>
+
+
 <!-- Buy tickets -->
 <div class="buytickets  widget-content" id="pricing">
-	<div class="buytickets_bg" data-stellar-background-ratio="0.2" style="background-image: url('images/bg_buytikets.png');"></div>
+	<div class="buytickets_bg" data-stellar-background-ratio="0.2" style="background-image: url('/images/bg_buytikets.png');"></div>
 	<div class="row">
 		<div class="columns small-12 medium-12 large-12">
 			<div class="center-content">
@@ -393,10 +419,10 @@
 									Deadline : August 15, 2015
 							 </div>
 								<div class="btn_buy_ticket">
-									<a class="btn-default" href="https://www.eventbrite.fr/e/billets-ml-week-17558237160">-30 %</a>
+									<a class="btn-default" href="https://www.eventbrite.fr/e/billets-ml-week-17558237160">buy ticket</a>
 								</div>
 								<div class="promo">
-									<div class="save">undefined</div>
+									<div class="save">-30 %</div>
 								</div>
 							</div>
 						</li>
@@ -426,26 +452,6 @@
 	</div>
 </div>
 
-<!-- Contact us / Map -->
-<div class="maps" id="location">
-	<div id="js-map"></div>
-	<div class="map-location">
-		<h2>Lieu</h2>
-		<ul itemscope="" itemtype="http://schema.org/PostalAddress">
-			<li class="title">Adresse</li>
-			<li itemprop="address">33 Rue de la Rosière d'Artois <br> 44100 Nantes France </li>
-			<li class="title">Email</li>
-			<li itemprop="email">jeff@ml-week.com</li>
-			<li class="title">Téléphones</li>
-			<li itemprop="phone">Anglais : +33 6 24 40 01 57</li>
-			<li itemprop="phone">Français : +33 6 58 84 73 94</li>
-		</ul>
-	</div>
-</div>
-<script type="text/javascript">
-var wplMap = {Lat : 47.214071, Long:-1.567878};
-var wplMarker = {Lat : 47.214071, Long: -1.567878};
-</script>
 
 <!-- Footer -->
 <div class="footer">
