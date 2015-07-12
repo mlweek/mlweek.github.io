@@ -54,7 +54,7 @@ french.schedule.part2.title = "SUJETS AVANCES"
 french.schedule.part2.step1_title = "Reconnaissances d'images";
 french.schedule.part2.step2_title = "Traitement de texte";
 french.schedule.part2.step3_title = "Systèmes de recommendation";
-french.schedule.see_details = "Voir le détails des contenus";
+french.schedule.see_details = "Voir le détail des contenus";
 french.schedule.see_details_action = "/fr/schedule-details";
 
 // schedule_details
