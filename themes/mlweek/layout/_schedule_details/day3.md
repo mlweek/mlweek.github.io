@@ -3,8 +3,6 @@ In the last decade, neural networks have achieved some remarkable successes, fro
 ![Artificial_neural_network](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Artificial_neural_network.svg/560px-Artificial_neural_network.svg.png)
 Source: WikiMedia Commons
 
-# Wednesday afternoon
-
 ## Dimensionality reduction
 Machine learning walks hand in hand with Big Data.  Data can be big not only because we have a lot of it, but because it is wide, that is, embedded in very highly dimensional spaces.  Dimensionality reduction gives us tools for finding the components of our data that matter most and -- good for us -- help us to run our programs faster.
 ![GaussianScatterPCA](https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/GaussianScatterPCA.png/512px-GaussianScatterPCA.png)

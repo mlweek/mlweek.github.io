@@ -2,21 +2,22 @@
 <html dir="ltr" lang="en-US">
 <%- partial('_common/html_head') %>
 <body>
-  <%- partial('_common/menu', { lang: lang , menu_path: menu_path}) %>
+  <%- partial('_common/menu', { lang: lang , menu_path: menu_path, current_path: '/schedule-details'}) %>
   <%- partial('_common/banner_light', { lang: lang}) %>
-
-  <div class="single_post">
+  <div class="widget-content">
   	<div class="row">
   		<div class="columns small-12 medium-12 large-12">
-  			<article>
-          <br>
-  				<h1 class="entry-title"><%= page.title %></h1>
+
+          <div class="center-content">
+    				<h2><%= page.title %></h2>
+    				</div>
+	      <article>
   				<div class="entry-excerpt">
   					<p>
   					    <!-- A exploiter si nécessaire -->
           	</p>
   				</div>
-  				<div class="entry-content">
+  				<div>
               <%- partial(details_path + '/format') %>
               <dl class="tabs" data-tab>
                 <dd class="active"><a href="#tab1"><%=lang.schedule_details.day1 %></a></dd>

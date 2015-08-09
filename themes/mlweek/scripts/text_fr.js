@@ -8,7 +8,7 @@ french.menu.schedule = "Agenda";
 french.menu.location = "Lieu";
 french.menu.pricing = "Réserver";
 french.menu.language = "English";
-french.menu.language_link = "/";
+french.menu.language_link = "";
 
 // Banner
 french.banner = {};
