@@ -1,2 +1,3 @@
-layout: schedule_details_fr
+layout: schedule_details_layout
+lang : french
 ---

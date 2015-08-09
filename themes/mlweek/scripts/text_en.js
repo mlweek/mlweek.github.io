@@ -117,5 +117,6 @@ english.mailing_list.komsg = "Please check your name and your email!";
 english.footer = {};
 english.footer.copyright = "© Copyright ML Week. All Rights Reserved."
 
-
+//
+english.path = ""
 hexo.extend.helper.register('english', function() { return english; });

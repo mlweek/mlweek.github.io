@@ -1,4 +1,4 @@
 title: Training Details
-layout: schedule_details_layout
+layout: schedule_layout
 lang : english
 ---

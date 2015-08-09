@@ -1,0 +1,11 @@
+<!doctype html>
+<html dir="ltr" lang="en-US">
+<%- partial('_common/html_head') %>
+<body>
+  <%- partial('_common/menu', { lang: eval(page.lang+'()'), menu_path: '' }) %>
+  <%- partial('_common/banner_light', { lang: eval(page.lang+'()') }) %>
+  <%- partial('_common/buy_tickets', { lang: eval(page.lang+'()')}) %>
+  <%- partial('_common/mailing_list', { lang: eval(page.lang+'()') }) %>
+  <%- partial('_common/footer', { lang: eval(page.lang+'()') }) %>
+  <%- partial('_common/scripts_footer', { lang: eval(page.lang+'()') }) %>
+</body>

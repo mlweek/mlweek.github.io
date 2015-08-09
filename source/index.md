@@ -1,2 +1,3 @@
 layout: index
+lang : english
 ---

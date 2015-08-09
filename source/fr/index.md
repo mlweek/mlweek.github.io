@@ -1,2 +1,3 @@
-layout: index_fr
+layout: index
+lang : french
 ---

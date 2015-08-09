@@ -1,0 +1,12 @@
+<!doctype html>
+<html dir="ltr" lang="en-US">
+<%- partial('_common/html_head') %>
+<body>
+  <%- partial('_common/menu', { lang: lang, menu_path: lang.path }) %>
+  <%- partial('_common/banner_light', { lang: lang }) %>
+  <%- partial(main_content, { lang: lang}) %>
+  <%- partial('_common/mailing_list', { lang: lang }) %>
+  <%- partial('_common/buy_tickets', { lang: lang }) %>
+  <%- partial('_common/footer', { lang: lang }) %>
+  <%- partial('_common/scripts_footer', { lang: lang }) %>
+</body>

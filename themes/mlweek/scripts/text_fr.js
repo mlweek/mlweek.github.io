@@ -117,4 +117,6 @@ french.mailing_list.komsg = "Vérifier votre nom ou votre adresse email !";
 french.footer = {};
 french.footer.copyright = "© Copyright ML Week. Tous droits réservés."
 
+french.path = "/fr"
+
 hexo.extend.helper.register('french', function() { return french; });
