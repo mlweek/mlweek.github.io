@@ -14,7 +14,7 @@ french.menu.language_link = "/";
 french.banner = {};
 french.banner.title = "1 semaine au coeur de l'Apprentissage Automatique.";
 french.banner.teaser = "4 jours pour comprendre les fondations de l'Apprentissage Automatique";
-french.banner.description = "Nos principes : <br><br>C'est pratique.  Vous partirez avec une bonne compréhension des principes, une expérience avec des libraries, et des exemples de code que vous avez écrit pendant le cours. <br><br> Pas besoin d'être fort en maths, le but est la pratique.  Nous penchons sur l'intuition pour mieux comprendre rapidement la théorie. <br><br> À la fin de la semaine, vous serez capable d'attaquer des tout projet sauf les plus avancés.  Plus important, vous aurez la capacité d'en apprendre plus dans les domaines précis qui vous intéressent. <br><br> Un plus !  Votre inscription comprend le GDG Devfest de vendredi, où pour la première fois il y aura un parcours apprentissage automatique."
+french.banner.description = "Nos principes : <ul><li>C'est pratique.  Vous partirez avec une bonne compréhension des principes, une expérience avec des libraries, et des exemples de code que vous avez écrit pendant le cours. </li><li>Pas besoin d'être fort en maths, le but est la pratique.  Nous penchons sur l'intuition pour mieux comprendre rapidement la théorie. </li></ul>À la fin de la semaine, vous serez capable d'attaquer des tout projet sauf les plus avancés.  Plus important, vous aurez la capacité d'en apprendre plus dans les domaines précis qui vous intéressent. <br><br> Un plus !  Votre inscription comprend le GDG Devfest de vendredi, où pour la première fois il y aura un parcours apprentissage automatique."
 
 // speakers
 french.speakers = {};
