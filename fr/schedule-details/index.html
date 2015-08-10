@@ -34,12 +34,12 @@
 			<div class="mb">
 				<div class="navmobile"><a href=""></a></div>
 				<ul class="nav-menu">
-					<li class="menuItem"><a href="//">Accueil</a></li>
-					<li class="menuItem"><a href="//speakers">Présentateurs</a></li>
-					<li class="menuItem"><a href="//schedule">Agenda</a></li>
-					<li class="menuItem"><a href="//location">Lieu</a></li>
-					<li class="menuItem"><a href="//pricing">Réserver</a></li>
-					<li class="language"><a href="/">English</a></li>
+					<li class="menuItem"><a href="/fr/">Accueil</a></li>
+					<li class="menuItem"><a href="/fr/speakers">Présentateurs</a></li>
+					<li class="menuItem"><a href="/fr/schedule-details">Agenda</a></li>
+					<li class="menuItem"><a href="/fr/location">Lieu</a></li>
+					<li class="menuItem"><a href="/fr/pricing">Réserver</a></li>
+					<li class="language"><a href="/schedule-details">English</a></li>
 				</ul>
 			</div>
 		</div>
@@ -63,19 +63,20 @@
 	</div>
 </div>
 
-
-  <div class="single_post">
+  <div class="widget-content">
   	<div class="row">
   		<div class="columns small-12 medium-12 large-12">
-  			<article>
-          <br>
-  				<h1 class="entry-title"></h1>
+
+          <div class="center-content">
+    				<h2>Agenda</h2>
+    				</div>
+	      <article>
   				<div class="entry-excerpt">
   					<p>
   					    <!-- A exploiter si nécessaire -->
           	</p>
   				</div>
-  				<div class="entry-content">
+  				<div>
               <h1 id="Format">Format</h1><p>Good machine learning practitioners define problems before tackling them.  This course is no exception.  Our goal is to review the main techniques available for learning from data using python-based tools.  Why python?  Because there are some good tools available and because, whether or not you already know python, we can help you learn enough to do the course and so learn the main material.<br>We’ll divide days into morning and afternoon, and each of those we’ll divide into before the snack break and after the snack break.  And in each of those sections, we’ll spend about half of our time talking about algorithms and computer science and the other half actually building machine learning models using python, scikit-learn, and a handful of other convenient and useful tools.<br>Our goals with these tools isn’t to make you an expert in their use — we don’t have the time it takes for that.  Our goal is to get you going so that you can attack the problems you face in your professional life and start making rapid progress.  Understanding how to set up and approach a problem will help you get going no matter what language you use in your professional life.</p>
 
               <dl class="tabs" data-tab>
@@ -104,7 +105,7 @@
                 </div>
                 <div class="content" id="tab3">
                     <h2 id="Deep_learning">Deep learning</h2><p>In the last decade, neural networks have achieved some remarkable successes, from image search to voice recognition (Siri, Google Now, etc.).  The advances that have lead to this sea change mostly fall under the appellation “deep learning”.  We’ll discuss what that means and build some simple examples.<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Artificial_neural_network.svg/560px-Artificial_neural_network.svg.png" alt="Artificial_neural_network"><br>Source: WikiMedia Commons</p>
-<h1 id="Wednesday_afternoon">Wednesday afternoon</h1><h2 id="Dimensionality_reduction">Dimensionality reduction</h2><p>Machine learning walks hand in hand with Big Data.  Data can be big not only because we have a lot of it, but because it is wide, that is, embedded in very highly dimensional spaces.  Dimensionality reduction gives us tools for finding the components of our data that matter most and — good for us — help us to run our programs faster.<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/GaussianScatterPCA.png/512px-GaussianScatterPCA.png" alt="GaussianScatterPCA"></p>
+<h2 id="Dimensionality_reduction">Dimensionality reduction</h2><p>Machine learning walks hand in hand with Big Data.  Data can be big not only because we have a lot of it, but because it is wide, that is, embedded in very highly dimensional spaces.  Dimensionality reduction gives us tools for finding the components of our data that matter most and — good for us — help us to run our programs faster.<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/GaussianScatterPCA.png/512px-GaussianScatterPCA.png" alt="GaussianScatterPCA"></p>
 <h2 id="Anomaly_Detection">Anomaly Detection</h2><p>Algorithms can be classified as online or offline, according to whether we can look at all the data (offline) or merely examine a stream of data as it passes (online).  A common concern in online data is identifying outliers, sometimes when we don’t know very much about what the outliers will look like.  For example, we might want to watch our server logs for unusual events so that we can explore further.</p>
 <h2 id="Large_Data">Large Data</h2><p>When data sets become quite large, we sometimes have to adopt special techniques to deal with the size.  This can be quite time consuming (because the data is so big!), but we’ll nonetheless talk about some approaches so that you aren’t stymied when your data grows large.</p>
 
@@ -158,10 +159,10 @@
 								</div>
 								<div class="price">	1 700 €</div>
 								<div class="description">
-									Deadline : August 15, 2015
+									Date limite : 04 septembre 2015
 							 </div>
 								<div class="btn_buy_ticket">
-									<a class="btn-default" href="https://www.eventbrite.fr/e/billets-ml-week-17558237160">buy ticket</a>
+									<a class="btn-default" href="https://www.eventbrite.fr/e/billets-ml-week-17558237160">Réserver</a>
 								</div>
 								<div class="promo">
 									<div class="save">-30 %</div>
@@ -194,6 +195,60 @@
 	</div>
 </div>
 
+  <!-- Mailing List -->
+<div id="RegisterModal" class="reveal-modal small" data-reveal>
+	<h3>Merci d&#39;avoir rejoint la liste diffusion !</h3>
+	<a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="ErrorModal" class="reveal-modal small" data-reveal>
+	<h3>Vérifier votre nom ou votre adresse email !</h3>
+	<a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div class="mailinglist widget-content">
+	<div class="mailinglist_bg" data-stellar-background-ratio="0.2" style="background-image: url('/images/bg_mailinglist.jpg');"></div>
+	<div class="row">
+		<div class="columns small-12 medium-12 large-4 envelope">
+			<div class="join">
+				Rejoindre la liste de diffusion :
+			</div>
+		</div>
+		<div class="columns small-12 medium-12 large-8">
+			<form id="idnewsletter">
+				<input type="text" name="entry.1586445777" id="name" placeholder="Nom">
+				<input type="email" name="entry.1306918449" id="email" placeholder="Email">
+				<button class="btn-default" onclick="postToGoogleForm()">Rejoindre</button>
+				<script>
+
+				function postToGoogleForm() {
+					var name = $('#name').val();
+					var email = $('#email').val();
+
+					if(name == null || name == "" || email == null || email == "") {
+							  $('#ErrorModal').foundation('reveal', 'open');
+					} else {
+						$.ajax({
+			        url: 'https://cors.5apps.com/?uri=https://docs.google.com/forms/d/1UtaASKQICsUli1TQcQgPegrFtTsdQusB-8jx4cgnwIA/formResponse',
+			        type: 'post',
+			        data: $('#idnewsletter').serialize(),
+			        success: function(data) {
+			                $('#RegisterModal').foundation('reveal', 'open');
+			        }
+			    	});
+					}
+					event.preventDefault();
+
+				}
+
+
+				</script>
+			</form>
+
+
+		</div>
+	</div>
+</div>
 
 <!-- Footer -->
 <div class="footer">
