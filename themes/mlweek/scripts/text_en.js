@@ -55,6 +55,7 @@ english.schedule.part2.step2_title = "Understanding text";
 english.schedule.part2.step3_title = "Recommender systems";
 english.schedule.see_details = "See details";
 english.schedule.see_details_action = "/schedule-details";
+english.schedule.dates = "9-12 November 2015"
 
 // schedule_details
 english.schedule_details = {};
@@ -79,7 +80,7 @@ english.buy_tickets = {};
 english.buy_tickets.title = 'Buy Tickets';
 english.buy_tickets.early_bird = {};
 english.buy_tickets.early_bird.text = 'Early Bird';
-english.buy_tickets.early_bird.deadline = 'Deadline : Septembre 04, 2015';
+english.buy_tickets.early_bird.deadline = 'Deadline : Septembre 11, 2015';
 english.buy_tickets.early_bird.price = '€1700';
 english.buy_tickets.early_bird.button = 'buy ticket';
 english.buy_tickets.early_bird.promo = 'save 30%';
@@ -89,6 +90,7 @@ english.buy_tickets.standard.deadline = '&nbsp;';
 english.buy_tickets.standard.price = '€2500';
 english.buy_tickets.standard.button = 'buy ticket';
 english.buy_tickets.standard.promo = 'new';
+english.buy_tickets.url = 'http://www.eventbrite.fr/e/billets-ml-week-in-english-18429886286'
 
 // contacts
 english.contacts = {};

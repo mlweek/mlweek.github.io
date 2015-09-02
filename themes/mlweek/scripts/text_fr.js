@@ -56,6 +56,7 @@ french.schedule.part2.step2_title = "Traitement de texte";
 french.schedule.part2.step3_title = "Systèmes de recommendation";
 french.schedule.see_details = "Voir le détail des contenus";
 french.schedule.see_details_action = "/fr/schedule-details";
+french.schedule.dates = "2-5 novembre 2015"
 
 // schedule_details
 french.schedule_details = {};
@@ -90,6 +91,7 @@ french.buy_tickets.standard.deadline = '&nbsp;';
 french.buy_tickets.standard.price = '2 500 €';
 french.buy_tickets.standard.button = 'Réserver';
 french.buy_tickets.standard.promo = 'nouveau';
+french.buy_tickets.url = 'https://www.eventbrite.fr/e/billets-ml-week-en-francais-17558237160'
 
 // contacts
 french.contacts = {};
