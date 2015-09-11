@@ -63,7 +63,6 @@ english.schedule_details.day1 = "Monday";
 english.schedule_details.day2 = "Tuesday";
 english.schedule_details.day3 = "Wednesday";
 english.schedule_details.day4 = "Thursday";
-english.schedule_details.day5 = "Friday";
 
 // visit_nantes
 english.visit_nantes = {};

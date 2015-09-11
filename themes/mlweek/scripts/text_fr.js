@@ -64,7 +64,6 @@ french.schedule_details.day1 = "Lundi";
 french.schedule_details.day2 = "Mardi";
 french.schedule_details.day3 = "Mercredi";
 french.schedule_details.day4 = "Jeudi";
-french.schedule_details.day5 = "Vendredi";
 
 // visit_nantes
 french.visit_nantes = {};
