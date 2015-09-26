@@ -49,11 +49,11 @@ vectoriel -- et son espérance de vie?  Et comment le découvrir?
 
 Le premier jour du ML Week, donc, nous parlerons de ses deux sujets :
 la classification binaire et la régression.  Et cela nous permettra de
-parler de deux des utiles les plus importants dans l'apprentissage
+parler de deux des outils les plus importants dans l'apprentissage
 automatique : la régression logistique et la régression linéaire.
 
 Et ce qui est merveilleux, c'est que la plupart des méthodes les plus
 importants se dérivent de ses deux, ce qui nous permettra d'aller
 loin.  Un réseau de neurones, tellement à la mode, tellement pratique
-(si on a le temps), c'est (dans sa forme la plus basique) une
-multiplication d'application de la régression logistique.
+(si on a le temps), c'est (dans sa forme la plus basic) de
+multiples applications de la régression logistique.
