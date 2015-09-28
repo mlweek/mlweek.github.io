@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <%- partial('_common/html_head') %>
 <body>
-  <%- partial('_common/menu', { lang: eval(page.lang+'()') }) %>
+  <%- partial('_common/menu', { menu_path: '', current_path: '', lang: eval(page.lang+'()') }) %>
   <%- partial('_common/banner_light', { lang: eval(page.lang+'()') }) %>
   <div class="single_post">
   	<div class="row">
@@ -25,7 +25,6 @@
     </div>
 </div>
 <%- partial('_common/buy_tickets', { lang: eval(page.lang+'()') }) %>
-<%- partial('_common/contacts', { lang: eval(page.lang+'()') }) %>
 <%- partial('_common/footer', { lang: eval(page.lang+'()') }) %>
   <%- partial('_common/scripts_footer') %>
 </body>
