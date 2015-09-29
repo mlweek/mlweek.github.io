@@ -40,7 +40,7 @@
 					<li class="menuItem"><a href="/location">Lieu</a></li>
 					<li class="menuItem"><a href="/pricing">Réserver</a></li>
 					<li class="menuItem"><a href="/blog">Blog</a></li>
-					<li class="language"><a href="/pricing">English</a></li>
+					<li class="language"><a href="">English</a></li>
 				</ul>
 			</div>
 		</div>
@@ -64,7 +64,27 @@
 	</div>
 </div>
 
-  <!-- Buy tickets -->
+  <div class="single_post">
+  	<div class="row">
+  		<div class="columns small-12 medium-12 large-12">
+  			<article>
+          <br>
+  				<h1 class="entry-title">Blog ML Week</h1>
+  				<div class="entry-excerpt">
+  					<p>
+  					    <!-- A exploiter si nécessaire -->
+          	</p>
+  				</div>
+  				<div class="entry-content">
+              <h2 id="Comment_comprendre_l’apprentissage_automatique_?"><a href="comprendre-apprentissage-automatique">Comment comprendre l’apprentissage automatique ?</a></h2>
+  				</div>
+
+  			</article>
+
+  		</div>
+    </div>
+</div>
+<!-- Buy tickets -->
 <div class="buytickets  widget-content" id="pricing">
 	<div class="buytickets_bg" data-stellar-background-ratio="0.2" style="background-image: url('/images/bg_buytikets.png');"></div>
 	<div class="row">
@@ -117,62 +137,7 @@
 	</div>
 </div>
 
-  <!-- Mailing List -->
-<div id="RegisterModal" class="reveal-modal small" data-reveal>
-	<h3>Merci d&#39;avoir rejoint la liste diffusion !</h3>
-	<a class="close-reveal-modal">&#215;</a>
-</div>
-
-<div id="ErrorModal" class="reveal-modal small" data-reveal>
-	<h3>Vérifier votre nom ou votre adresse email !</h3>
-	<a class="close-reveal-modal">&#215;</a>
-</div>
-
-<div class="mailinglist widget-content">
-	<div class="mailinglist_bg" data-stellar-background-ratio="0.2" style="background-image: url('/images/bg_mailinglist.jpg');"></div>
-	<div class="row">
-		<div class="columns small-12 medium-12 large-4 envelope">
-			<div class="join">
-				Rejoindre la liste de diffusion :
-			</div>
-		</div>
-		<div class="columns small-12 medium-12 large-8">
-			<form id="idnewsletter">
-				<input type="text" name="entry.1586445777" id="name" placeholder="Nom">
-				<input type="email" name="entry.1306918449" id="email" placeholder="Email">
-				<button class="btn-default" onclick="postToGoogleForm()">Rejoindre</button>
-				<script>
-
-				function postToGoogleForm() {
-					var name = $('#name').val();
-					var email = $('#email').val();
-
-					if(name == null || name == "" || email == null || email == "") {
-							  $('#ErrorModal').foundation('reveal', 'open');
-					} else {
-						$.ajax({
-			        url: 'https://cors.5apps.com/?uri=https://docs.google.com/forms/d/1UtaASKQICsUli1TQcQgPegrFtTsdQusB-8jx4cgnwIA/formResponse',
-			        type: 'post',
-			        data: $('#idnewsletter').serialize(),
-			        success: function(data) {
-			                $('#RegisterModal').foundation('reveal', 'open');
-			        }
-			    	});
-					}
-					event.preventDefault();
-
-				}
-
-
-				</script>
-			</form>
-
-
-		</div>
-	</div>
-</div>
-
-  <!-- Footer -->
+<!-- Footer -->
 <div class="footer">
 	<div class="footer_bg" data-stellar-background-ratio="0.2" style="background-image: url('/images/bg_buytikets.png');"></div>
 
