@@ -1,0 +1,195 @@
+<!doctype html>
+<html dir="ltr" lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>ML Week</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="http://www.ml-week.com/fr/pricing/favicon.ico" />
+
+	<!-- Mobile Specific Meta -->
+	<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
+
+	<!-- CSS -->
+	<link type="text/css" rel="stylesheet" href="http://www.ml-week.com/css/vendors.css"/>
+	<link type="text/css" rel="stylesheet" href="http://www.ml-week.com/style.css"/>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63715488-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+  <div class="main_menu navbar-fixed">
+	<div class="row">
+		<div class="columns small-12 medium-12 large-12">
+			<div class="mb">
+				<div class="navmobile"><a href="pricing"></a></div>
+				<ul class="nav-menu">
+					<li class="menuItem"><a href="http://www.ml-week.com/">Accueil</a></li>
+					<li class="menuItem"><a href="http://www.ml-week.com/speakers">Présentateurs</a></li>
+					<li class="menuItem"><a href="http://www.ml-week.com/schedule-details">Agenda</a></li>
+					<li class="menuItem"><a href="http://www.ml-week.com/location">Lieu</a></li>
+					<li class="menuItem"><a href="http://www.ml-week.com/pricing">Réserver</a></li>
+					<li class="menuItem"><a href="http://www.ml-week.com/blog">Blog</a></li>
+					<li class="language"><a href="http://www.ml-week.com/pricing">English</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+  <div class="mini_header">
+	<div class="mini_header_bg" data-stellar-background-ratio="0.2" style="background-image: url('http://www.ml-week.com/images/bg_banner_salle.jpg');"></div>
+	<div class="row">
+		<div class="columns small-12 medium-12 large-12">
+			<!-- Site title -->
+			<div class="logo">
+				<h1 id="site-title">ML Week</h1>
+			</div>
+
+			<!-- Site description -->
+			<div class="sub-logo">
+				<h2 id="site-description">1 semaine au coeur de l&#39;Apprentissage Automatique.</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+  <!-- Buy tickets -->
+<div class="buytickets  widget-content" id="pricing">
+	<div class="buytickets_bg" data-stellar-background-ratio="0.2" style="background-image: url('http://www.ml-week.com/images/bg_buytikets.png');"></div>
+	<div class="row">
+		<div class="columns small-12 medium-12 large-12">
+			<div class="center-content">
+				<h2>Réservation</h2>
+				<div class="">
+					<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+						<li>
+							<!-- Early bird box -->
+							<div class="buytickets_item">
+								<div class="title">
+									Prévente
+								</div>
+								<div class="price">	1 700 €</div>
+								<div class="description">
+									Date limite : 04 septembre 2015
+							 </div>
+								<div class="btn_buy_ticket">
+									<a class="btn-default" href="https://www.eventbrite.fr/e/billets-ml-week-en-francais-17558237160">Réserver</a>
+								</div>
+								<div class="promo">
+									<div class="save">-30 %</div>
+								</div>
+							</div>
+						</li>
+
+						<!-- Standard box -->
+						<li>
+							<div class="buytickets_item">
+								<div class="title">
+									Standard Ticket
+								</div>
+								<div class="price">2 500 €</div>
+								<div class="description">
+									&nbsp;
+								</div>
+								<div class="btn_buy_ticket">
+									<a class="btn-default" href="https://www.eventbrite.fr/e/billets-ml-week-en-francais-17558237160">Réserver</a>
+								</div>
+								<div class="promo">
+									<div class="new">nouveau</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+  <!-- Mailing List -->
+<div id="RegisterModal" class="reveal-modal small" data-reveal>
+	<h3>Merci d&#39;avoir rejoint la liste diffusion !</h3>
+	<a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="ErrorModal" class="reveal-modal small" data-reveal>
+	<h3>Vérifier votre nom ou votre adresse email !</h3>
+	<a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div class="mailinglist widget-content">
+	<div class="mailinglist_bg" data-stellar-background-ratio="0.2" style="background-image: url('http://www.ml-week.com/images/bg_mailinglist.jpg');"></div>
+	<div class="row">
+		<div class="columns small-12 medium-12 large-4 envelope">
+			<div class="join">
+				Rejoindre la liste de diffusion :
+			</div>
+		</div>
+		<div class="columns small-12 medium-12 large-8">
+			<form id="idnewsletter">
+				<input type="text" name="entry.1586445777" id="name" placeholder="Nom">
+				<input type="email" name="entry.1306918449" id="email" placeholder="Email">
+				<button class="btn-default" onclick="postToGoogleForm()">Rejoindre</button>
+				<script>
+
+				function postToGoogleForm() {
+					var name = $('#name').val();
+					var email = $('#email').val();
+
+					if(name == null || name == "" || email == null || email == "") {
+							  $('#ErrorModal').foundation('reveal', 'open');
+					} else {
+						$.ajax({
+			        url: 'https://cors.5apps.com/?uri=https://docs.google.com/forms/d/1UtaASKQICsUli1TQcQgPegrFtTsdQusB-8jx4cgnwIA/formResponse',
+			        type: 'post',
+			        data: $('#idnewsletter').serialize(),
+			        success: function(data) {
+			                $('#RegisterModal').foundation('reveal', 'open');
+			        }
+			    	});
+					}
+					event.preventDefault();
+
+				}
+
+
+				</script>
+			</form>
+
+
+		</div>
+	</div>
+</div>
+
+  <!-- Footer -->
+<div class="footer">
+	<div class="footer_bg" data-stellar-background-ratio="0.2" style="background-image: url('http://www.ml-week.com/images/bg_buytikets.png');"></div>
+
+
+	<!-- Copyright -->
+	<div class="footer_copyright">
+		<div class="row">
+			<div class="columns small-12 medium-12 large-12 center-content">
+				© Copyright ML Week. Tous droits réservés.
+			</div>
+
+		</div>
+	</div>
+</div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script src="http://www.ml-week.com/js/vendors.js"></script>
+<script src="http://www.ml-week.com/js/base.js"></script>
+
+</body>
