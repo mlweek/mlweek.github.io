@@ -64,111 +64,89 @@
 	    </div>
 	</div>
 
-	<!-- Buy tickets -->
-	<div class="buytickets  widget-content" id="pricing">
-	    <div class="buytickets_bg" data-stellar-background-ratio="0.2" style="background-image: url('images/bg_buytikets.png');"></div>
-	    <div class="row">
+	<div class=" widget-content" id="resa">
+	    <div class="row center-content">
 		<div class="columns small-12 medium-12 large-12">
-		    <div class="center-content">
-			<h2>Réservation</h2>
-			<div class="">
-			    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
-				<li>
-				    <!-- Early bird box -->
-				    <div class="buytickets_item">
-					<div class="title">
-					    Prévente
-					</div>
-					<div class="price">	1 700 €</div>
-					<div class="description">
-					    Date limite : 04 septembre 2015
-					</div>
-					<div class="btn_buy_ticket">
-					    <a class="btn-default" href="https://www.eventbrite.fr/e/billets-ml-week-en-francais-17558237160">Réserver</a>
-					</div>
-					<div class="promo">
-					    <div class="save">-30 %</div>
-					</div>
-				    </div>
-				</li>
+		    <h2>Réserver</h2>
+		</div>
+	    </div>
 
-				<!-- Standard box -->
-				<li>
-				    <div class="buytickets_item">
-					<div class="title">
-					    Standard Ticket
+	    <p>Pour bénéficier d'une subvention ou pour régler par
+		virement bancaire, prenez contact avec nous avec le
+		formulaire ci-dessous.  Vous pouvez toutefois vous
+		inscrire directement avec Eventbrite (ci-bas) si vous
+		préférez.</p>
+
+	    <div class="buytickets widget-content" id="pricing">
+		<div class="buytickets_bg" data-stellar-background-ratio="0.2" style="background-image: url('img/bg_buytikets.png');"></div>
+		<div class="row">
+		    <div class="columns small-12 medium-12 large-12">
+			<div class="center-content">
+			    <div class="">
+				<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+				    <li>
+					<!-- Early bird box -->
+					<div class="buytickets_item">
+					    <div class="title">
+						Tarif promotionnel
+					    </div>
+					    <div class="price">1 350 € HT pour 1 module</div>
+					    <div class="price">2 600 € HT pour 2 modules</div>
+					    <div class="price">3 900 € HT pour 3 modules</div>
+					    <div class="description">
+						<i class="fa fa-calendar"></i> date limite : 24 janvier 2016
+					    </div>
+					    <div class="promo">
+						<div class="save">-30 %</div>
+					    </div>
 					</div>
-					<div class="price">2 500 €</div>
-					<div class="description">
-					    &nbsp;
+				    </li>
+
+				    <!-- Standard box -->
+				    <li>
+					<div class="buytickets_item">
+					    <div class="title">Tarif normal<br></div>
+					    <div class="price">	1 900 € HT pour 1 module</div>
+					    <div class="price">	3 600 € HT pour 2 modules</div>
+					    <div class="price">	5 400 € HT pour 2 modules</div>
+					    <div class="description">
+						&nbsp;
+					    </div>
+					    <!--
+				 <div class="promo">
+				 <div class="new">nouveau</div>
+				 </div>
+				 -->
 					</div>
-					<div class="btn_buy_ticket">
-					    <a class="btn-default" href="https://www.eventbrite.fr/e/billets-ml-week-en-francais-17558237160">Réserver</a>
-					</div>
-					<div class="promo">
-					    <div class="new">nouveau</div>
-					</div>
-				    </div>
-				</li>
-			    </ul>
+				    </li>
+				</ul>
+				<div class="btn_buy_ticket">
+				    <a class="btn-default" href="https://www.eventbrite.fr/e/billets-ml-week-en-francais-17558237160">Payer en ligne</a>
+				</div>
+
+			    </div>
 			</div>
 		    </div>
 		</div>
 	    </div>
-	</div>
 
-	<!-- Mailing List -->
-	<div id="RegisterModal" class="reveal-modal small" data-reveal>
-	    <h3>Merci d&#39;avoir rejoint la liste diffusion !</h3>
-	    <a class="close-reveal-modal">&#215;</a>
-	</div>
-
-	<div id="ErrorModal" class="reveal-modal small" data-reveal>
-	    <h3>Vérifier votre nom ou votre adresse email !</h3>
-	    <a class="close-reveal-modal">&#215;</a>
-	</div>
-
-	<div class="mailinglist widget-content">
-	    <div class="mailinglist_bg" data-stellar-background-ratio="0.2" style="background-image: url('images/bg_mailinglist.jpg');"></div>
 	    <div class="row">
-		<div class="columns small-12 medium-12 large-4 envelope">
-		    <div class="join">
-			Rejoindre la liste de diffusion :
+		<div class="columns small-12 medium-12 large-12">
+		    <div>
+			<form style="text-align: left">
+
+			    <input type="text" name="" id="name" placeholder="Prénom et Nom">
+			    <input type="email" name="" id="email" placeholder="Email">
+			    <input type="checkbox" name="" id="module1"> Module 1 - Introduction à l'Apprentissage Automatique (24-26 février 2016)<br>
+			    <input type="checkbox" name="" id="module2"> Module 2 - Pratique de l'Apprentissage Automatique (09-11 mars 2016)<br>
+			    <input type="checkbox" name="" id="module3"> Module 3 - Visualisation intéractive avec D3 (27-29 avril 2016)<br>
+			    <textarea name="" id="" cols="30" rows="10" placeholder="Vos compléments d'informations"></textarea>
+
+			</form>
+			<button class="btn-default" onclick="">Réserver</button>
 		    </div>
 		</div>
-		<div class="columns small-12 medium-12 large-8">
-		    <form id="idnewsletter">
-			<input type="text" name="entry.1586445777" id="name" placeholder="Nom">
-			<input type="email" name="entry.1306918449" id="email" placeholder="Email">
-			<button class="btn-default" onclick="postToGoogleForm()">Rejoindre</button>
-			<script>
 
-			 function postToGoogleForm() {
-			     var name = $('#name').val();
-			     var email = $('#email').val();
-
-			     if(name == null || name == "" || email == null || email == "") {
-				 $('#ErrorModal').foundation('reveal', 'open');
-			     } else {
-				 $.ajax({
-			             url: 'https://cors.5apps.com/?uri=https://docs.google.com/forms/d/1UtaASKQICsUli1TQcQgPegrFtTsdQusB-8jx4cgnwIA/formResponse',
-			             type: 'post',
-			             data: $('#idnewsletter').serialize(),
-			             success: function(data) {
-			                 $('#RegisterModal').foundation('reveal', 'open');
-			             }
-			    	 });
-			     }
-			     event.preventDefault();
-
-			 }
-
-
-			</script>
-		    </form>
-
-
-		</div>
 	    </div>
 	</div>
 
