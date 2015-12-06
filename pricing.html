@@ -149,6 +149,62 @@
 	    </div>
 	</div>
 
+	<!-- Mailing List -->
+	<div id="RegisterModal" class="reveal-modal small" data-reveal>
+	    <h3>Merci d&#39;avoir rejoint la liste diffusion !</h3>
+	    <a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<div id="ErrorModal" class="reveal-modal small" data-reveal>
+	    <h3>Vérifier votre nom ou votre adresse email !</h3>
+	    <a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<div class="mailinglist widget-content">
+	    <div class="mailinglist_bg" data-stellar-background-ratio="0.2" style="background-image: url('img/bg_mailinglist.jpg');"></div>
+	    <div class="row">
+		<div class="columns small-12 medium-12 large-4 envelope">
+		    <div class="join">
+			Rejoindre la liste de diffusion :
+		    </div>
+		</div>
+		<div class="columns small-12 medium-12 large-8">
+		    <form id="idnewsletter">
+			<input type="text" name="entry.1586445777" id="name" placeholder="Nom">
+			<input type="email" name="entry.1306918449" id="email" placeholder="Email">
+			<button class="btn-default" onclick="postToGoogleForm()">Rejoindre</button>
+			<script>
+
+			 function postToGoogleForm() {
+			     var name = $('#name').val();
+			     var email = $('#email').val();
+
+			     if(name == null || name == "" || email == null || email == "") {
+				 $('#ErrorModal').foundation('reveal', 'open');
+			     } else {
+				 $.ajax({
+			             url: 'https://cors.5apps.com/?uri=https://docs.google.com/forms/d/1UtaASKQICsUli1TQcQgPegrFtTsdQusB-8jx4cgnwIA/formResponse',
+			             type: 'post',
+			             data: $('#idnewsletter').serialize(),
+			             success: function(data) {
+			                 $('#RegisterModal').foundation('reveal', 'open');
+			             }
+			    	 });
+			     }
+			     event.preventDefault();
+
+			 }
+
+
+			</script>
+		    </form>
+
+
+		</div>
+	    </div>
+	</div>
+	<!-- End of mailing list -->
+
 	<!-- Footer -->
 	<div class="footer">
 	    <div class="footer_bg" data-stellar-background-ratio="0.2" style="background-image: url('img/bg_buytikets.png');"></div>
