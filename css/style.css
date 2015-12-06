@@ -1366,6 +1366,7 @@ h1.entry-title a:hover {
 .buytickets ul li .buytickets_item .description {
   font-weight: 400;
   margin-top: 1.5em;
+  color: #f74819;
 }
 .buytickets ul li .buytickets_item .btn_buy_ticket {
   padding: 2.5em 0 4em 0;
