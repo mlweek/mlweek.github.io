@@ -135,13 +135,13 @@
         <div class="row">
             <div class="columns small-12 medium-9">
                 <div class="entry-excerpt">
-                    <form style="text-align: left">
-                        <input type="text" name="" id="resaname" placeholder="PRENOM et NOM">
-                        <input type="email" name="" id="resaemail" placeholder="EMAIL">
-                        <input type="checkbox" name="resamodule" id="module1"> Module 1 - Introduction à l'Apprentissage Automatique (24-26 février 2016)<br>
-                        <input type="checkbox" name="" id="module2"> Module 2 - Pratique de l'Apprentissage Automatique (09-11 mars 2016)<br>
-                        <input type="checkbox" name="" id="module3"> Module 3 - Visualisation intéractive avec D3 (27-29 avril 2016)<br>
-                        <textarea name="resacomplement" id="" cols="30" rows="10" placeholder="Vos compléments d'informations"></textarea>
+                    <form id="resaForm" >
+                        <input type="text" name="entry.1586445777" id="name" placeholder="PRENOM et NOM">
+                        <input type="email" name="entry.1306918449" id="email" placeholder="EMAIL">
+                        <input type="checkbox" name="entry.1776825866" value="module 1"> Module 1 - Introduction à l'Apprentissage Automatique (24-26 février 2016)<br>
+                        <input type="checkbox" name="entry.1776825866" value="module 2"> Module 2 - Pratique de l'Apprentissage Automatique (09-11 mars 2016)<br>
+                        <input type="checkbox" name="entry.1776825866" value="module 3"> Module 3 - Visualisation intéractive avec D3 (27-29 avril 2016)<br>
+                        <textarea name="entry.1144771784" cols="30" rows="10" placeholder="Vos compléments d'informations"></textarea>
 
                     </form>
                 </div>
@@ -164,41 +164,14 @@
 
 <!-- Mailing List -->
 <div id="RegisterModal" class="reveal-modal small" data-reveal>
-    <h3>Merci d&#39;avoir rejoint la liste diffusion !</h3>
+    <h3>Votre réservation a bien été prise en compte. Nous vous contactons dans les plus brefs délais.</h3>
     <a class="close-reveal-modal">&#215;</a>
 </div>
 
 <div id="ErrorModal" class="reveal-modal small" data-reveal>
-    <h3>Vérifier votre nom ou votre adresse email !</h3>
+    <h3>Vérifier votre nom ou votre adresse email.</h3>
     <a class="close-reveal-modal">&#215;</a>
 </div>
-
-<article class="row">
-    <div class="columns small-12 medium-12 large-12">
-        <h2 class=" entry-title">Rejoindre la liste de diffusion</h2>
-
-        <form id="idnewsletter" class="row">
-            <div class="columns small-12 medium-4 large-4">
-                <div class="entry-excerpt">
-                    <input type="text" name="entry.1586445777" id="name" placeholder="Nom">
-                </div>
-            </div>
-            <div class="columns small-12 medium-4 large-4">
-                <div class="entry-excerpt">
-                    <input type="email" name="entry.1306918449" id="email" placeholder="Email">
-                </div>
-            </div>
-            <div class="columns small-12 medium-4 large-4">
-                <div class="entry-excerpt">
-                    <button class="btn-default" onclick="wplook.postMailingList()">Rejoindre</button>
-                </div>
-            </div>
-
-        </form>
-
-
-    </div>
-</article>
 
 <!-- Footer -->
 <div class="footer">

@@ -3,25 +3,33 @@ var wplook = (function ($) {
 
 	$(document).foundation();
 
+	var postGoogleForm = function(idForm) {
+		var name = $('#name').val();
+		var email = $('#email').val();
+
+		if(name == null || name == "" || email == null || email == "") {
+			$('#ErrorModal').foundation('reveal', 'open');
+		} else {
+			$.ajax({
+				url: 'https://cors.5apps.com/?uri=https://docs.google.com/forms/d/1UtaASKQICsUli1TQcQgPegrFtTsdQusB-8jx4cgnwIA/formResponse',
+				type: 'post',
+				data: $(idForm).serialize(),
+				success: function(data) {
+					$('#RegisterModal').foundation('reveal', 'open');
+				}
+			});
+		}
+		event.preventDefault();
+	};
+
 	var wplook = {
 
+		reserver: function() {
+			postGoogleForm('#resaForm');
+		}
+		,
 		postMailingList: function() {
-			var name = $('#name').val();
-			var email = $('#email').val();
-
-			if(name == null || name == "" || email == null || email == "") {
-				$('#ErrorModal').foundation('reveal', 'open');
-			} else {
-				$.ajax({
-					url: 'https://cors.5apps.com/?uri=https://docs.google.com/forms/d/1UtaASKQICsUli1TQcQgPegrFtTsdQusB-8jx4cgnwIA/formResponse',
-					type: 'post',
-					data: $('#idnewsletter').serialize(),
-					success: function(data) {
-						$('#RegisterModal').foundation('reveal', 'open');
-					}
-				});
-			}
-			event.preventDefault();
+			postGoogleForm('#idnewsletter');
 		},
 
 		// Start Functions
@@ -30,7 +38,10 @@ var wplook = (function ($) {
 			wplook.MobileMenuWpl();
 			wplook.OwlSliderWpl();
 			wplook.MainMenuWpl();
-			wplook.GoogleMapsWpl();
+			if(window.wplMap) {
+				wplook.GoogleMapsWpl();
+			}
+
 			wplook.DetectiOSWpl();
 		},
 
