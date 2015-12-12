@@ -47,6 +47,15 @@ Tags: black, blue, green, orange, pink, red, white, two-columns, right-sidebar, 
 a {
   color: #f74819;
 }
+h1,h2,h3,h4,h5,h6 {
+  color: #666666;
+}
+.texte-lisible-center {
+  font-weight: 400;
+  font-size: 1.25em;
+  text-align: center;
+}
+
 .texte-lisible {
   font-weight: 400;
   font-size: 1.25em;
