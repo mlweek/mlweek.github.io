@@ -1,170 +1,234 @@
 <!doctype html>
 <html dir="ltr" lang="fr">
-    <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>ML Week</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>ML Week</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="favicon.ico" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico"/>
 
-	<!-- Mobile Specific Meta -->
-	<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
+    <!-- Mobile Specific Meta -->
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
 
-	<!-- CSS -->
-	<link type="text/css" rel="stylesheet" href="css/vendors.css"/>
-	<link type="text/css" rel="stylesheet" href="style.css"/>
-	<script>
-	 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="css/vendors.css"/>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-	 ga('create', 'UA-63715488-1', 'auto');
-	 ga('send', 'pageview');
+        ga('create', 'UA-63715488-1', 'auto');
+        ga('send', 'pageview');
 
-	</script>
-    </head>
+    </script>
+</head>
 
-    <body>
-	<div class="main_menu navbar-fixed">
-	    <div class="row">
-		<div class="columns small-12 medium-12 large-12">
-		    <div class="mb">
-			<div class="navmobile"><a href="index.html"></a></div>
-			<ul class="nav-menu">
-			    <li class="menuItem"><a href="index.html">Accueil</a></li>
-			    <li class="menuItem"><a href="speakers.html">Présentateurs</a></li>
-			    <li class="menuItem"><a href="schedule-details.html">Agenda</a></li>
-			    <li class="menuItem"><a href="location.html">Lieu</a></li>
-			    <li class="menuItem"><a href="pricing.html">Réserver</a></li>
-			    <li class="menuItem"><a href="contact.html">Contact</a></li>
-			</ul>
-		    </div>
-		</div>
-	    </div>
-	</div>
+<body>
+<div class="main_menu navbar-fixed">
+    <div class="row">
+        <div class="columns small-12 medium-12 large-12">
+            <div class="mb">
+                <div class="navmobile"><a href="index.html"></a></div>
+                <ul class="nav-menu">
+                    <li class="menuItem"><a href="index.html">Accueil</a></li>
+                    <li class="menuItem"><a href="programme.html">Programme</a></li>
+                    <li class="menuItem"><a href="formateurs.html">Formateurs</a></li>
+                    <li class="menuItem"><a href="lieu.html">Lieu</a></li>
+                    <li class="menuItem"><a href="reserver.html">Réserver</a></li>
+                    <li class="menuItem"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
-	<div class="banner" id="home">
-	    <div class="banner_bg" data-stellar-background-ratio="0.2" style="background-image: url('img/bg_banner_salle.jpg');"></div>
-	    <div class="row">
-		<div class="colums small-12 medium-12-large-12">
-		    <div class="center-content">
-		    <!-- Site title -->
-                   <div class="logo">
-                       <h1 id="site-title">ML Week</h1>
-                   </div>
+<div class="banner" id="home">
+    <div class="banner_bg" data-stellar-background-ratio="0.2"
+         style="background-image: url('img/bg_banner_salle.jpg');"></div>
+    <div class="row">
+        <div class="colums small-12 medium-12-large-12">
+            <div class="center-content">
+                <!-- Site title -->
+                <div class="logo">
+                    <h1 id="site-title">ML Week</h1>
+                </div>
 
-                   <!-- Site Description -->
-                   <div class="sub-logo">
-                       <h2 id="site-description">1 semaine au coeur de l&#39;Apprentissage Automatique.</h2>
-                   </div>
-
-
-			<!-- Event Info -->
-			<div class="event-info">
-			    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
-				<li>
-				    <i class="fa fa-map-marker "></i>Nantes, France
-				</li>
-				<li>
-				    <i class="fa fa-calendar"></i>24-26 février 2016<br>
-				    <i class="fa fa-calendar"></i>09-11 &nbsp; mars &nbsp; 2016<br>
-				    <i class="fa fa-calendar"></i>27-29 &nbsp; avril &nbsp;  &nbsp;2016<br>
-				</li>
-
-			    </ul>
-			</div>
-
-			<h1>Comprendre les fondations de l'Apprentissage Automatique</h1>
-			<div class="banner-desc">Nos principes :
-			    <ul><li>C'est pratique.  Vous partirez avec une bonne compréhension des principes, une expérience avec des libraries, et des exemples de code que vous avez écrit pendant le cours. </li>
-				<li>Pas besoin d'être fort en maths, le but est la pratique.  Nous penchons sur l'intuition pour mieux comprendre rapidement la théorie. </li>
-			    </ul>
-			    <p>Les travaux pratiques seront réalisés en python.  Si vous êtes déjà fan de python, vous serez sûrement à l'aise.  Mais sinon, ne vous inquiétez pas, on ne plongera pas dans les profondeur de la langue, et nous vous donnerons des tutoriels en avance pour que vous soyez opérationnel le premier jour après une heure ou deux de pré-travail facile.</p>
-
-			    <p>À la fin de la formation, vous serez capable d'attaquer des tout projet sauf les plus avancés.  Plus important, vous aurez la capacité d'en apprendre plus dans les domaines précis qui vous intéressent.</p></div>
-		    </div>
-		</div>
-	    </div>
-	</div>
-
-	<!-- Mailing List -->
-	<div id="RegisterModal" class="reveal-modal small" data-reveal>
-	    <h3>Merci d&#39;avoir rejoint la liste diffusion !</h3>
-	    <a class="close-reveal-modal">&#215;</a>
-	</div>
-
-	<div id="ErrorModal" class="reveal-modal small" data-reveal>
-	    <h3>Vérifier votre nom ou votre adresse email !</h3>
-	    <a class="close-reveal-modal">&#215;</a>
-	</div>
-
-	<div class="mailinglist widget-content">
-	    <div class="mailinglist_bg" data-stellar-background-ratio="0.2" style="background-image: url('img/bg_mailinglist.jpg');"></div>
-	    <div class="row">
-		<div class="columns small-12 medium-12 large-4 envelope">
-		    <div class="join">
-			Rejoindre la liste de diffusion :
-		    </div>
-		</div>
-		<div class="columns small-12 medium-12 large-8">
-		    <form id="idnewsletter">
-			<input type="text" name="entry.1586445777" id="name" placeholder="Nom">
-			<input type="email" name="entry.1306918449" id="email" placeholder="Email">
-			<button class="btn-default" onclick="postToGoogleForm()">Rejoindre</button>
-			<script>
-
-			 function postToGoogleForm() {
-			     var name = $('#name').val();
-			     var email = $('#email').val();
-
-			     if(name == null || name == "" || email == null || email == "") {
-				 $('#ErrorModal').foundation('reveal', 'open');
-			     } else {
-				 $.ajax({
-			             url: 'https://cors.5apps.com/?uri=https://docs.google.com/forms/d/1UtaASKQICsUli1TQcQgPegrFtTsdQusB-8jx4cgnwIA/formResponse',
-			             type: 'post',
-			             data: $('#idnewsletter').serialize(),
-			             success: function(data) {
-			                 $('#RegisterModal').foundation('reveal', 'open');
-			             }
-			    	 });
-			     }
-			     event.preventDefault();
-
-			 }
+                <!-- Site Description -->
+                <div class="sub-logo">
+                    <h2 id="site-description">1 semaine au coeur de l&#39;Apprentissage Automatique.</h2>
+                </div>
 
 
-			</script>
-		    </form>
-		</div>
-		<div class="join">Ou <a href="pricing.html">reserver</a> dès maintenant !</div>
-	    </div>
-	</div>
-	<!-- End of mailing list -->
+                <!-- Event Info -->
+                <div class="event-info">
+                    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+                        <li>
+                            <i class="fa fa-map-marker "></i>Nantes, France
+                        </li>
+                        <li>
+                            <i class="fa fa-calendar"></i>24-26 février 2016<br>
+                            <i class="fa fa-calendar"></i>09-11 &nbsp; mars &nbsp; 2016<br>
+                            <i class="fa fa-calendar"></i>27-29 &nbsp; avril &nbsp; &nbsp;2016<br>
+                        </li>
 
-	<!-- Footer -->
-	<div class="footer">
-	    <div class="footer_bg" data-stellar-background-ratio="0.2" style="background-image: url('img/bg_buytikets.png');"></div>
-
-
-	    <!-- Copyright -->
-	    <div class="footer_copyright">
-		<div class="row">
-		    <div class="columns small-12 medium-12 large-12 center-content">
-			© Copyright ML Week. Tous droits réservés.
-		    </div>
-
-		</div>
-	    </div>
-	</div>
-
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-	<script src="js/vendors.js"></script>
-	<script src="js/base.js"></script>
+                    </ul>
+                </div>
+                <h1>Comprendre les fondations de l'Apprentissage Automatique</h1>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-    </body>
+<div class="single_post">
+    <div class="row">
+        <div class="columns small-12 medium-12 large-12">
+            <article>
+                <h2 class="entry-title">
+                    Pourquoi vous formez avec ML Week ?
+                </h2>
+
+                <div class="entry-excerpt">
+                    <p>
+                        Notre objectif est d'offrir des formations vous apportant des compétences professionnelles dans
+                        le
+                        domaine de l'Apprentissage Automatique.
+                        <br>
+                        <br>
+                        <b>Nos formations sont avant tout pratiques</b>. A l'issue de ML Week, vous aurez :<br>
+                        * une bonne compréhension des fondamentaux <br>
+                        * une expérience d'utilisation de librairies utiles <br>
+                        * des exemples de code que vous aurez écrit pendant les formations
+                        <br>
+                        <br>
+                        <b>Les mathématiques vous font peur ?</b> <br>
+                        Pas de panique, nous allons vous réconcilier avec les mathématiques en vous donnant des clés
+                        intuitives pour
+                        aider à mieux comprendre les concepts
+                        <br>
+                        <br>
+                        Les travaux pratiques seront réalisés en <b>Python</b> pour la partie serveur et
+                        <b>Javascript</b> pour la
+                        partie visualisation.
+                        <br>
+                        <br>
+                        Vous êtes fan de Python, Javascript ? Tant mieux, vous serez dans votre zone de confort.
+                        <br>
+                        <br>
+                        Vous ne connaissez pas Python ou Javascript ? Ne vous inquiétez pas, tout est prévu pour que
+                        vous puissiez
+                        pleinement profiter des formations. Nous vous proposerons un tutoriel à exécuter avant les
+                        formations et nous
+                        ferons des rappels réguliers pendant.
+                        <br>
+                        <br>
+                        A l'issue de ML Week, <b>vous saurez comment amorcer un projet d' Apprentissage Automatique</b>
+                        et surtout vous aurez
+                        la capacité de continuer votre apprentissage dans des domaines plus précis qui vous intéressent.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="row">
+        <div class="columns small-12 medium-12 large-12">
+            <article>
+                <h2 class="entry-title">
+                    Vous souhaitez en savoir plus ?
+                </h2>
+
+                <div class="entry-excerpt">
+                    <ul class="" style="font-size: 1.2em">
+                        <li><a href="programme.html">LE PROGRAMME 2016</a></li>
+                        <li><a href="formateurs.html">LES FORMATEURS</a></li>
+                        <li><a href="lieu.html">LE LIEU</a></li>
+                        <li><a href="contact.html">NOUS CONTACTER</a></li>
+                    </ul>
+
+
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <article class="row">
+        <div class="columns small-12 medium-12 large-12">
+            <h2 class=" entry-title">Rejoindre la liste de diffusion</h2>
+
+            <div class="row">
+                <div class="columns small-12 medium-4 large-4">
+                    <div class="entry-excerpt">
+                        <input type="text" name="entry.1586445777" id="name" placeholder="Nom">
+                    </div>
+                </div>
+                <div class="columns small-12 medium-4 large-4">
+                    <div class="entry-excerpt">
+                        <input type="email" name="entry.1306918449" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="columns small-12 medium-4 large-4">
+                    <div class="entry-excerpt">
+                        <button class="btn-default" onclick="wplook.postMailingList()">Rejoindre</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="columns small-12">
+                    <div class="entry-excerpt">
+                        OU <a href="/reserver.html">RESERVER DIRECTEMENT VOTRE PLACE</a><br><br>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+
+<div id="RegisterModal" class="reveal-modal small" data-reveal>
+    <h3>Merci d&#39;avoir rejoint la liste diffusion !</h3>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="ErrorModal" class="reveal-modal small" data-reveal>
+    <h3>Vérifier votre nom ou votre adresse email !</h3>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="footer_bg" data-stellar-background-ratio="0.2"
+         style="background-image: url('img/bg_buytikets.png');"></div>
+
+
+    <!-- Copyright -->
+    <div class="footer_copyright">
+        <div class="row">
+            <div class="columns small-12 medium-12 large-12 center-content">
+                © Copyright ML Week. Tous droits réservés.
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script src="js/vendors.js"></script>
+<script src="js/base.js"></script>
+
+
+</body>
 </html>
