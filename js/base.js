@@ -3,6 +3,16 @@ var wplook = (function ($) {
 
 	$(document).foundation();
 
+	// Pour firefox, désactivation du rechargement de la page lors du clic sur un
+	// bouton dans un formulaire
+	$('#resaForm').on('submit', function(){
+		return false;
+	});
+	$('#idnewsletter').on('submit', function(){
+		return false;
+	});
+
+
 	var postGoogleForm = function(idForm) {
 		var name = $('#name').val();
 		var email = $('#email').val();
@@ -19,7 +29,6 @@ var wplook = (function ($) {
 				}
 			});
 		}
-		event.preventDefault();
 	};
 
 	var wplook = {
