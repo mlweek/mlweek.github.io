@@ -419,7 +419,7 @@ body {
   background: black;
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width: 750px) {
   .mb .navmobile {
     display: block;
     height: 50px;
