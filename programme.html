@@ -94,7 +94,7 @@
                                     <div class="title">Introduction à l'Apprentissage Automatique</div>
                                 </div>
                                 <div class="content">
-                                    <dl class="accordion"> <!-- Pour activer l'accordéon - <dl class="accordion" data-accordion> -->
+                                    <dl class="accordion" data-accordion> <!-- Pour activer l'accordéon - <dl class="accordion" data-accordion> -->
 
                                         <dd class="accordion-navigation">
                                             <a href="#panel1">
@@ -103,7 +103,24 @@
                                             </a>
 
                                             <div id="panel1" class="content">
-                                                A venir...
+						<p>Un bon practicien de la data science définit un problème avant d'essayer sa solution.  Cette formation
+						n'en fait pas dérogation.  Notre mission est la découverte des techniques principales du machine
+						    learning en servant pour la plupart des outils en python.</p>
+
+						<p>Pourquoi python?  Parce qu'il y a de très bons outils pour le ML en python.  En plus, c'est un langage
+						assez abordable même si on ne le connait pas.  Et nous voudrions que ce soit une formation
+						d'apprentissage automatique, pas une formation en python.  Sans connaissance préalable du python, vous
+						    n'aurez pas de problème à suivre la partie programmation pour comprendre la partie ML.</p>
+
+						<p>Nous passerons la moitié de notre temps à discuter les principes de l'apprentissage automatique,
+						l'autre moitié nous alons construire des modèles pour illustrer ses principes.  Nos outils seront
+						    python mais surtout ses bibliothèques phares tel que scikit-learn.</p>
+
+						<p>Notre but n'est pas de vous rendre expert dans ses outils.  Ça viendra dans le temps si vous le
+						voulez.  Notre but est de vous aider à grimper jusqu'au niveau que vous pouvez attaquer rapidement et
+						efficacement vos propres problèmes dans votre vie professionnelle.  Parce que c'est comprendre comment
+						poser une question, comment approcher le problème vous aidera à utiliser le ML quelque soit vos outils
+						    informatiques de préférence.</p>
                                             </div>
                                         </dd>
                                         <dd class="accordion-navigation">
@@ -112,25 +129,34 @@
                                             </a>
 
                                             <div id="panel2" class="content">
-                                                A venir...
+						<p>C'est quoi l'apprentissage automatique?  Les techniques sont-ils applicable hors les contextes
+						    mythiques de Google, Facebook, etc?  <i>(Oui !)</i></p>
+
+						<p>Nous alons discuter les principes générale du machine learning afin de pouvoir attaquer les
+						différents problématiques que nous voyons souvent dans la vie (professionnelle) quotidienne :
+						l'apprentissage supervisé et non-supervisé, les classificateurs linéaires et non-linéaires.  Comment
+						transformons-nous un problème réel en termes mathématique pour qu'il soit susceptible à une solution
+						informatique?  Et pas moins important, comment basculons-nous une solution mathématique vers une
+						    action concrète dans le monde réel?</p>
+
+						<p>Afin de nous lancer dans ces sujets avec un minimum de stresse, nous suivrons avec un review court
+						de la statistique et de l'algebre linéaire.  Pas de stresse si les maths font plutôt partie de votre
+						passé : nous pouvons facilement nous débrouiller avec quelques dessins pour retrouver les principes
+						    les plus importantes !</p>
                                             </div>
                                         </dd>
                                         <dd class="accordion-navigation">
                                             <a href="#panel3">
-                                                <div class="event-title large-8"><span class="bigplus">+</span> Introduction aux données : exploration et nettoyage</div>
+                                                <div class="event-title large-8"><span class="bigplus">+</span> Introduction aux données : exploration
+						et nettoyage avec pandas</div>
                                             </a>
 
                                             <div id="panel3" class="content">
-                                                A venir...
-                                            </div>
-                                        </dd>
-                                        <dd class="accordion-navigation">
-                                            <a href="#panel4">
-                                                <div class="event-title large-8"><span class="bigplus">+</span> Introduction à pandas</div>
-                                            </a>
-
-                                            <div id="panel4" class="content">
-                                                A venir...
+                                                <p>Mieux qu'on voit, mieux qu'on trouve.  Les données arrivent souvent trop copieux pour bien les
+                                                comprendre.  Pire, il ya des valeurs qui manquent, d'autres qui sont fausses.  Nous discuterons des
+                                                techniques pour s'approcher aux données.  Notre outil de préference sera pandas, une bibliothèque qui
+                                                rend l'exploration et le nettoyage de données facile et rapide, même pour les grands datasets.  Nous
+                                                    verrons également des possibilités de visualisation rapide.</p>
                                             </div>
                                         </dd>
                                         <dd class="accordion-navigation">
@@ -140,7 +166,9 @@
                                             </a>
 
                                             <div id="panel5" class="content">
-                                                A venir...
+                                                La bibliothèque qui nous aidera le plus sera scikit-learn.  Magnifique resource en logiciel libre,
+                                                presque tout algorithme important en ML s'y trouve.  Avec scikit-learn, nous serons libre à pencher
+                                                sur ce que nous faisons sans nous laisser distraire par trop de détails informatiques.
                                             </div>
                                         </dd>
                                         <dd class="accordion-navigation">
@@ -149,7 +177,12 @@
                                             </a>
 
                                             <div id="panel6" class="content">
-                                                A venir...
+						Pour nous guider, il faut une fenêtre sur ce monde de données.  Il existe des techniques approfondies
+						pour visualiser nos données (le D3, ce que nous verrons dans la module 3 de ML Week).  Il existe
+						également des techniques rapides et faciles pour explorer, pour comprendre, et pour communiquer ce que
+						nous voyons.  Nous allons voir plusieurs bibliothèques (matplotlib, seaborn, ...) pour remplir notre
+						boite à outils.
+						
                                             </div>
                                         </dd>
                                         <dd class="accordion-navigation">
@@ -158,8 +191,12 @@
                                             </a>
 
                                             <div id="panel7" class="content">
-                                                <p>Model the relationship between real-valued variables.  Use the model to predict unknown values and to understand the strength of your prediction.  When it comes to modeling continuous variables, linear regression is often the first tool to use, and simple variations of it address a surprisingly large array of problems.</p>
+						<p>Méthode fondamentale de l'apprentissage supervisé.  Un modèle linéaire à valeur réelle qui nous
+						permet de prédire les valeurs de données pas encore connues.  Souvent le premier modèle à essayer et,
+						    avec quelques variations simples, s'applique à une variété impressionantes de problème.</p>
 
+						<img src="img/programme/Linear_regression.svg">
+						<img src="img/programme/Polyreg_scheffe.svg">
                                             </div>
                                         </dd>
                                         <dd class="accordion-navigation">
@@ -169,7 +206,7 @@
                                             </a>
 
                                             <div id="panel8" class="content">
-                                                A venir...
+						logreg
                                             </div>
                                         </dd>
                                         <dd class="accordion-navigation">
