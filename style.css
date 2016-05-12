@@ -1,3 +1,23 @@
+.schedule ul.catalog li .schedule-body .event-header {
+         color: #1a1a1a;
+}
+.schedule ul.catalog li .schedule-body .event-header:hover {
+     background-color: #f74819;
+      color:white;
+}
+.schedule ul li .rubrique {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.schedule ul li .titre {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: center;
+}
 /* 
 Theme Name: Conference UX
 Theme URI: http://themeforest.net/user/WPlook/portfolio
