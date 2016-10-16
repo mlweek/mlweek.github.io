@@ -151,27 +151,31 @@ body {
 /*	----------------------------------------------------------
 	Default btn
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
-.btn-default {
-  background-color: #f74819;
-  text-transform: uppercase;
-  color: #f2f2f2;
-  font-family: "Lato", sans-serif;
-  padding: 11px 45px;
-  -webkit-background-clip: padding-box;
-  -webkit-border-radius: 30px;
-  -moz-background-clip: padding-box;
-  border-radius: 30px;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+btn-default {
+    background-color: #ffffff;
+    color: #333333;
 }
-.btn-default:hover, .btn-default:focus {
-  background: #f85c32;
-  color: #f2f2f2;
-}
-.btn-default:active {
-  background: #eb4f25;
-  color: #cccccc;
-}
+/* .btn-default { */
+/*   background-color: #f74819; */
+/*   text-transform: uppercase; */
+/*   color: #f2f2f2; */
+/*   font-family: "Lato", sans-serif; */
+/*   padding: 11px 45px; */
+/*   -webkit-background-clip: padding-box; */
+/*   -webkit-border-radius: 30px; */
+/*   -moz-background-clip: padding-box; */
+/*   border-radius: 30px; */
+/*   -webkit-background-clip: padding-box; */
+/*   background-clip: padding-box; */
+/* } */
+/* .btn-default:hover, .btn-default:focus { */
+/*   background: #f85c32; */
+/*   color: #f2f2f2; */
+/* } */
+/* .btn-default:active { */
+/*   background: #eb4f25; */
+/*   color: #cccccc; */
+/* } */
 
 /*	----------------------------------------------------------
 	Logo
@@ -863,6 +867,11 @@ h1.entry-title a:hover {
 .breadcrumbs > *.current a:hover {
   color: #999999;
   text-decoration: none;
+}
+
+/* From orange */
+.theme-showcase > p > .btn {
+  margin: 5px 0;
 }
 
 /*	----------------------------------------------------------
