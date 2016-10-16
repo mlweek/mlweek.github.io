@@ -17,8 +17,18 @@ var wplook = (function ($) {
 
 		return false;
 	})
+	$('#techniques-ml').on('click', function(){
+		$('#MLTechniquesA').foundation('reveal', 'open');
+
+		return false;
+	})
 	$('#intro-skl-tf').on('click', function(){
 		$('#MLScikitTF').foundation('reveal', 'open');
+
+		return false;
+	})
+	$('#theorie').on('click', function(){
+		$('#Theorie').foundation('reveal', 'open');
 
 		return false;
 	})
