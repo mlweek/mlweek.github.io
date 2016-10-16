@@ -12,6 +12,12 @@ var wplook = (function ($) {
 		return false;
 	});
 
+	$('#ml1').on('click', function(){
+		$('#MLIntroModal').foundation('reveal', 'open');
+
+		return false;
+	})
+
 
 	var postGoogleForm = function(idForm) {
 		var name = $('#name').val();
