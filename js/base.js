@@ -17,6 +17,11 @@ var wplook = (function ($) {
 
 		return false;
 	})
+	$('#deep-learning').on('click', function(){
+		$('#MLDeepLearningModal').foundation('reveal', 'open');
+
+		return false;
+	})
 	$('#techniques-ml').on('click', function(){
 		$('#MLTechniquesA').foundation('reveal', 'open');
 
