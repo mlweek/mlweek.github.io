@@ -37,6 +37,12 @@ var wplook = (function ($) {
 
 		return false;
 	})
+	$('#cours').on('click', function(){
+		$('#Cours').foundation('reveal', 'open');
+
+		return false;
+	})
+	
 
 	var postGoogleForm = function(idForm) {
 		var name = $('#name').val();
