@@ -1,6 +1,6 @@
 <!doctype html>
 <html dir="ltr" lang="en-US">
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>ML Week</title>
     <meta name="description" content="Catalogue ML Week">
@@ -16,343 +16,315 @@
     <link type="text/css" rel="stylesheet" href="css/vendors.css"/>
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                        (i[r].q = i[r].q || []).push(arguments)
-                    }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-63715488-1', 'auto');
-        ga('send', 'pageview');
+      ga('create', 'UA-63715488-1', 'auto');
+      ga('send', 'pageview');
 
     </script>
-</head>
+  </head>
 
-<body>
-<div class="main_menu navbar-fixed">
-    <div class="row">
+  <body>
+    <div class="main_menu navbar-fixed">
+      <div class="row">
         <div class="columns small-12 medium-12 large-12">
-            <div class="mb">
-                <div class="navmobile"><a href="schedule-details"></a></div>
-                <ul class="nav-menu">
-                    <li class="menuItem"><a href="index.html">Accueil</a></li>
-                    <li class="menuItem"><a href="catalogue.html">Catalogue</a></li>
-                    <li class="menuItem"><a href="formateurs.html">Formateurs</a></li>
-                    <!-- <li class="menuItem"><a href="lieu.html">Lieu</a></li> -->
-                    <li class="menuItem"><a href="reserver.html">Réserver</a></li>
-                    <li class="menuItem"><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+          <div class="mb">
+            <div class="navmobile"><a href="schedule-details"></a></div>
+            <ul class="nav-menu">
+              <li class="menuItem"><a href="index.html">Accueil</a></li>
+              <li class="menuItem"><a href="catalogue.html">Catalogue</a></li>
+              <li class="menuItem"><a href="formateurs.html">Formateurs</a></li>
+              <!-- <li class="menuItem"><a href="lieu.html">Lieu</a></li> -->
+              <li class="menuItem"><a href="reserver.html">Réserver</a></li>
+              <li class="menuItem"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<div class="mini_header">
-    <div class="mini_header_bg" data-stellar-background-ratio="0.2"
-         style="background-image: url('img/bg_banner_salle.jpg');"></div>
-    <div class="row">
+    <div class="mini_header">
+      <div class="mini_header_bg" data-stellar-background-ratio="0.2"
+           style="background-image: url('img/bg_banner_salle.jpg');"></div>
+      <div class="row">
         <div class="columns small-12 medium-12 large-12">
-            <!-- Site title -->
-            <div class="logo">
-                <h1 id="site-title">ML Week</h1>
-            </div>
+          <!-- Site title -->
+          <div class="logo">
+            <h1 id="site-title">ML Week</h1>
+          </div>
 
-            <!-- Site description -->
-            <div class="sub-logo">
-                <h2 id="site-description">1 semaine au coeur de l&#39;Apprentissage Automatique.</h2>
-            </div>
+          <!-- Site description -->
+          <div class="sub-logo">
+            <h2 id="site-description">1 semaine au coeur de l&#39;Apprentissage Automatique.</h2>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<div class="schedule widget-content" id="schedule">
-	<div class="row">
-		<div class="columns small-12 medium-12 large-12">
-			<div class="center-content">
-				<h2>Catalogue</h2>
-			</div>
-			<div>
-			    À venir :
-			    <ul>
-				<li>Cours à l'année (toute la théorie, tous les codelabs) : à partir du 8 novembre : 3 heures en fin d'après-midi toutes les deux semaines pendant dix semaines</li>
-				<li>Visualisation intéractive avec D3, 23-24 novembre 2017, Nantes</li>
-				<li>Big Data, 22-23 mars 2018, Nantes</li>
-			    </ul>
-			</div>
-				<ul class="catalog small-block-grid-1 medium-block-grid-2 large-block-grid-3">
-					<!-- ---------------------------------------- -->
-					<li>
-                        <a id="intro-ml">
-                            <div class="schedule-body">
-                                <div class="event-header">
-                                    <div class="rubrique">
-                                        Machine Learning
-                                    </div>
-                                    <div class="titre">
-                                        Module 1 : Introduction à l'Apprentissage Automatique
-                                        (3 jours)
-                                    </div>
-				    <ul class="fa-ul ok-check">
-					<li><i class="fa-li fa fa-check"></i>Principes de l'apprentissage automatique</li>
-					<li><i class="fa-li fa fa-check"></i>Du monde réel au monde mathématique (modélisation) et de retour (valorisation)</li>
-					<li><i class="fa-li fa fa-check"></i>Introduction aux données : exploration
-					    et nettoyage avec pandas</li>
-					<li><i class="fa-li fa fa-check"></i>Introduction à scikit-learn et à TensorFlow</li>
-					<li><i class="fa-li fa fa-check"></i>Régression linéaire</li>
-					<li><i class="fa-li fa fa-check"></i>Régression logistique</li>
-					<li><i class="fa-li fa fa-check"></i>La machine à support vectoriel (SVM)</li>
-				    </ul>
-                                    <p align="right">plus...</p>
-                                </div> <!-- event-header -->
-                            </div>  <!-- schedule-body -->
-                        </a>
-					</li>
+    <div class="schedule widget-content" id="schedule">
+      <div class="row">
+	<div class="columns small-12 medium-12 large-12">
+	  <div class="center-content">
+	    <h2>Catalogue</h2>
+	  </div>
+	  <div>
+	    À venir :
+	    <ul>
+	      <li>Cours à l'année (toute la théorie, tous les codelabs) : à partir du 8 novembre : 3 heures en fin d'après-midi toutes les deux semaines pendant dix semaines</li>
+	      <li>Visualisation intéractive avec D3, 23-24 novembre 2017, Nantes</li>
+	      <li>Big Data, 22-23 mars 2018, Nantes</li>
+	    </ul>
+	  </div>
+	  <ul class="catalog small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+	    <!-- ---------------------------------------- -->
+	    <li>
+              <a id="intro-ml">
+                <div class="schedule-body">
+                  <div class="event-header">
+                    <div class="rubrique">
+                      Machine Learning
+                    </div>
+                    <div class="titre">
+                      Module 1 : Introduction à l'Apprentissage Automatique
+                      (3 jours)
+                    </div>
+		    <ul class="fa-ul ok-check">
+		      <li><i class="fa-li fa fa-check"></i>Principes de l'apprentissage automatique</li>
+		      <li><i class="fa-li fa fa-check"></i>Du monde réel au monde mathématique (modélisation) et de retour (valorisation)</li>
+		      <li><i class="fa-li fa fa-check"></i>Introduction aux données : exploration
+			et nettoyage avec pandas</li>
+		      <li><i class="fa-li fa fa-check"></i>Introduction à scikit-learn et à TensorFlow</li>
+		      <li><i class="fa-li fa fa-check"></i>Régression linéaire</li>
+		      <li><i class="fa-li fa fa-check"></i>Régression logistique</li>
+		      <li><i class="fa-li fa fa-check"></i>La machine à support vectoriel (SVM)</li>
+		    </ul>
+                    <p align="right">plus...</p>
+                  </div> <!-- event-header -->
+                </div>  <!-- schedule-body -->
+              </a>
+	    </li>
 
-					<!-- ---------------------------------------- -->
+	    <!-- ---------------------------------------- -->
 
-				    <li>
-                         <a id="techniques-ml">
-                            <div class="schedule-body">
-                                <div class="event-header">
-                                    <div class="rubrique">
-                                        Machine Learning
-                                    </div>
-                                    <div class="titre">
-                                        Module 2 : Techniques Avancées de l'Apprentissage Automatique
-                                        (3 jours)
-                                    </div>
-				    <div>
-				    <ul class="fa-ul ok-check">
-					<li><i class="fa-li fa fa-check"></i>Les réseaux de neurones artificielles</li>
-					<li><i class="fa-li fa fa-check"></i>Les images</li>
-					<li><i class="fa-li fa fa-check"></i>Les visages</li>
-					<li><i class="fa-li fa fa-check"></i>L'écriture</li>
-					<li><i class="fa-li fa fa-check"></i>Les séries temporelles</li>
-					<li><i class="fa-li fa fa-check"></i>La musique</li>
-					<li><i class="fa-li fa fa-check"></i>Les anomalies</li>
-				    </ul>
-                                    <p align="right">plus...</p>
-				    </div>
-                                </div> <!-- event-header -->
-                            </div> <!-- schedule-body -->
-                          </a>
-				    </li>
-                    
-					<!-- ---------------------------------------- -->
+	    <li>
+              <a id="techniques-ml">
+                <div class="schedule-body">
+                  <div class="event-header">
+                    <div class="rubrique">
+                      Machine Learning
+                    </div>
+                    <div class="titre">
+                      Module 2 : Techniques Avancées de l'Apprentissage Automatique
+                      (3 jours)
+                    </div>
+		    <div>
+		      <ul class="fa-ul ok-check">
+			<li><i class="fa-li fa fa-check"></i>Les réseaux de neurones artificielles</li>
+			<li><i class="fa-li fa fa-check"></i>Les images</li>
+			<li><i class="fa-li fa fa-check"></i>Les visages</li>
+			<li><i class="fa-li fa fa-check"></i>L'écriture</li>
+			<li><i class="fa-li fa fa-check"></i>Les séries temporelles</li>
+			<li><i class="fa-li fa fa-check"></i>La musique</li>
+			<li><i class="fa-li fa fa-check"></i>Les anomalies</li>
+		      </ul>
+                      <p align="right">plus...</p>
+		    </div>
+                  </div> <!-- event-header -->
+                </div> <!-- schedule-body -->
+              </a>
+	    </li>
+            
+	    <!-- ---------------------------------------- -->
 
-				    <li>
-                         <a id="theorie">
-                            <div class="schedule-body">
-                                <div class="event-header">
-                                    <div class="rubrique">
-                                        Machine Learning
-                                    </div>
-                                    <div class="titre">
-                                        Intensif théorie
-                                        (3 jours)
-                                    </div>
-				    <div>
-				    <ul class="fa-ul ok-check">
-					<li><i class="fa-li fa fa-check"></i>Tout le contenu des modules 1 et 2</li>
-					<li><i class="fa-li fa fa-check"></i>Principes, modélisation, valorisation</li>
-					<li><i class="fa-li fa fa-check"></i>Régression linéaire et logistique</li>
-					<li><i class="fa-li fa fa-check"></i>SVM</li>
-					<li><i class="fa-li fa fa-check"></i>Réseaux de neuronnes</li>
-					<li><i class="fa-li fa fa-check"></i>Reconnaissance : visages, écriture, musique</li>
-					<li><i class="fa-li fa fa-check"></i>Série temporelles</li>
-					<li><i class="fa-li fa fa-check"></i>Les anomalies</li>
-				    </ul>
-                                    <p align="right">plus...</p>
-				    </div>
-                                </div> <!-- event-header -->
-                            </div> <!-- schedule-body -->
-                          </a>
-				    </li>
+	    <li>
+              <a id="theorie">
+                <div class="schedule-body">
+                  <div class="event-header">
+                    <div class="rubrique">
+                      Machine Learning
+                    </div>
+                    <div class="titre">
+                      Intensif théorie
+                      (3 jours)
+                    </div>
+		    <div>
+		      <ul class="fa-ul ok-check">
+			<li><i class="fa-li fa fa-check"></i>Tout le contenu des modules 1 et 2</li>
+			<li><i class="fa-li fa fa-check"></i>Principes, modélisation, valorisation</li>
+			<li><i class="fa-li fa fa-check"></i>Régression linéaire et logistique</li>
+			<li><i class="fa-li fa fa-check"></i>SVM</li>
+			<li><i class="fa-li fa fa-check"></i>Réseaux de neuronnes</li>
+			<li><i class="fa-li fa fa-check"></i>Reconnaissance : visages, écriture, musique</li>
+			<li><i class="fa-li fa fa-check"></i>Série temporelles</li>
+			<li><i class="fa-li fa fa-check"></i>Les anomalies</li>
+		      </ul>
+                      <p align="right">plus...</p>
+		    </div>
+                  </div> <!-- event-header -->
+                </div> <!-- schedule-body -->
+              </a>
+	    </li>
 
-					<!-- ---------------------------------------- -->
+	    <!-- ---------------------------------------- -->
 
-				    <li>
-                         <a id="cours">
-                            <div class="schedule-body">
-                                <div class="event-header">
-                                    <div class="rubrique">
-                                        Machine Learning
-                                    </div>
-                                    <div class="titre">
-                                        Cours sur l'année
-                                    </div>
-				    <div>
-					<ul class="fa-ul ok-check">
-					<li><i class="fa-li fa fa-check"></i>3h en fin d'après-midi, toutes les deux semaines, pendant dix séances</li>
-					<li><i class="fa-li fa fa-check"></i>Tout le contenu des modules 1 et 2</li>
-					<li><i class="fa-li fa fa-check"></i>Le temps pour vous laisser réfléchir et essayer entre séances</li>
-					<li><i class="fa-li fa fa-check"></i>Principes, modélisation, valorisation</li>
-					<li><i class="fa-li fa fa-check"></i>Régression linéaire et logistique</li>
-					<li><i class="fa-li fa fa-check"></i>SVM</li>
-					<li><i class="fa-li fa fa-check"></i>Réseaux de neuronnes</li>
-					<li><i class="fa-li fa fa-check"></i>Reconnaissance : visages, écriture, musique</li>
-					<li><i class="fa-li fa fa-check"></i>Série temporelles</li>
-					<li><i class="fa-li fa fa-check"></i>Les anomalies</li>
-				    </ul>
-                                    <p align="right">plus...</p>
-				    </div>
-                                </div> <!-- event-header -->
-                            </div> <!-- schedule-body -->
-                          </a>
-				    </li>
+	    <li>
+              <a id="cours">
+                <div class="schedule-body">
+                  <div class="event-header">
+                    <div class="rubrique">
+                      Machine Learning
+                    </div>
+                    <div class="titre">
+                      Cours sur l'année
+                    </div>
+		    <div>
+		      <ul class="fa-ul ok-check">
+			<li><i class="fa-li fa fa-check"></i>3h en fin d'après-midi, toutes les deux semaines, pendant dix séances</li>
+			<li><i class="fa-li fa fa-check"></i>Tout le contenu des modules 1 et 2</li>
+			<li><i class="fa-li fa fa-check"></i>Le temps pour vous laisser réfléchir et essayer entre séances</li>
+			<li><i class="fa-li fa fa-check"></i>Principes, modélisation, valorisation</li>
+			<li><i class="fa-li fa fa-check"></i>Régression linéaire et logistique</li>
+			<li><i class="fa-li fa fa-check"></i>SVM</li>
+			<li><i class="fa-li fa fa-check"></i>Réseaux de neuronnes</li>
+			<li><i class="fa-li fa fa-check"></i>Reconnaissance : visages, écriture, musique</li>
+			<li><i class="fa-li fa fa-check"></i>Série temporelles</li>
+			<li><i class="fa-li fa fa-check"></i>Les anomalies</li>
+		      </ul>
+                      <p align="right">plus...</p>
+		    </div>
+                  </div> <!-- event-header -->
+                </div> <!-- schedule-body -->
+              </a>
+	    </li>
 
-					<!-- ---------------------------------------- -->
+	    <!-- ---------------------------------------- -->
 
-                     <li>
-                        <a id="intro-skl-tf">
-                            <div class="schedule-body">
-                                <div class="event-header">
-                                    <div class="rubrique">
-                                        Machine Learning
-                                    </div>
-                                    <div class="titre">
-                                        Introduction à scikit-learn et TensorFlow
-                                        (1 jour)
-                                    </div>
-				    <div>
-				    <ul class="fa-ul ok-check">
-					<li><i class="fa-li fa fa-check"></i>
-					    <li><i class="fa-li fa fa-check"></i>Une journée de codelab</li>
-					    <li><i class="fa-li fa fa-check"></i>Travailler avec de vrais exemples</li>
-					    <li><i class="fa-li fa fa-check"></i>Partir avec du code utilisable pour lancer vos projets personnels ou professionels !</li>
-					    <li><i class="fa-li fa fa-check"></i>Une dégustation de la théorie du ML</li>
-				    </ul>
-                                    <p align="right">plus...</p>
-				    </div>
-                                </div> <!-- event-header -->
-                            </div> <!-- schedule-body -->
-                        </a>
-					</li>
+            <li>
+              <a id="intro-skl-tf">
+                <div class="schedule-body">
+                  <div class="event-header">
+                    <div class="rubrique">
+                      Machine Learning
+                    </div>
+                    <div class="titre">
+                      Introduction à scikit-learn et TensorFlow
+                      (1 jour)
+                    </div>
+		    <div>
+		      <ul class="fa-ul ok-check">
+			<li><i class="fa-li fa fa-check"></i>
+			<li><i class="fa-li fa fa-check"></i>Une journée de codelab</li>
+			<li><i class="fa-li fa fa-check"></i>Travailler avec de vrais exemples</li>
+			<li><i class="fa-li fa fa-check"></i>Partir avec du code utilisable pour lancer vos projets personnels ou professionels !</li>
+			<li><i class="fa-li fa fa-check"></i>Une dégustation de la théorie du ML</li>
+		      </ul>
+                      <p align="right">plus...</p>
+		    </div>
+                  </div> <!-- event-header -->
+                </div> <!-- schedule-body -->
+              </a>
+	    </li>
 
-					<!-- ---------------------------------------- -->
+	    <!-- ---------------------------------------- -->
 
-                     <li>
-                        <a href="formations/visualisation-d3.html">
-                            <div class="schedule-body">
-                                <div class="event-header">
-                                    <div class="rubrique">
-                                        Visualisation
-                                    </div>
-                                    <div class="titre">
-                                        Visualisation intéractive avec D3
-                                        (3 jours)
-                                    </div>
-				    <div>
-				    <ul class="fa-ul ok-check">
-					<li><i class="fa-li fa fa-check"></i>Les enjeux de la visualisation de données</li>
-					<li><i class="fa-li fa fa-check"></i>Premiers pas avec D3</li>
-					<li><i class="fa-li fa fa-check"></i>SVG & D3</li>
-					<li><i class="fa-li fa fa-check"></i>Canvas & D3</li>
-					<li><i class="fa-li fa fa-check"></i>Transitions avec D3</li>
-					<li><i class="fa-li fa fa-check"></i>Manipuler vos données</li>
-					<li><i class="fa-li fa fa-check"></i>Gérer les événements</li>
-					<li><i class="fa-li fa fa-check"></i>Composants D3</li>
-					<li><i class="fa-li fa fa-check"></i>Représentation géospatiale</li>
-					<li><i class="fa-li fa fa-check"></i>Techniques avancées avec D3</li>
-				    </ul>
-                                    <p align="right">plus...</p>
-				    </div>
-                                </div> <!-- event-header -->
-                            </div> <!-- schedule-body -->
-                         </a>
-					</li>
-                    
-					<!-- ---------------------------------------- -->
+            <li>
+              <a href="formations/visualisation-d3.html">
+                <div class="schedule-body">
+                  <div class="event-header">
+                    <div class="rubrique">
+                      Visualisation
+                    </div>
+                    <div class="titre">
+                      Visualisation intéractive avec D3
+                      (3 jours)
+                    </div>
+		    <div>
+		      <ul class="fa-ul ok-check">
+			<li><i class="fa-li fa fa-check"></i>Les enjeux de la visualisation de données</li>
+			<li><i class="fa-li fa fa-check"></i>Premiers pas avec D3</li>
+			<li><i class="fa-li fa fa-check"></i>SVG & D3</li>
+			<li><i class="fa-li fa fa-check"></i>Canvas & D3</li>
+			<li><i class="fa-li fa fa-check"></i>Transitions avec D3</li>
+			<li><i class="fa-li fa fa-check"></i>Manipuler vos données</li>
+			<li><i class="fa-li fa fa-check"></i>Gérer les événements</li>
+			<li><i class="fa-li fa fa-check"></i>Composants D3</li>
+			<li><i class="fa-li fa fa-check"></i>Représentation géospatiale</li>
+			<li><i class="fa-li fa fa-check"></i>Techniques avancées avec D3</li>
+		      </ul>
+                      <p align="right">plus...</p>
+		    </div>
+                  </div> <!-- event-header -->
+                </div> <!-- schedule-body -->
+              </a>
+	    </li>
+            
+	    <!-- ---------------------------------------- -->
 
-                     <li>
-                        <a href="formations/techniques-big-data.html">
-                            <div class="schedule-body">
-                                <div class="event-header">
-                                    <div class="rubrique">
-                                        Big Data
-                                    </div>
-                                    <div class="titre">
-                                        Les techniques du Big Data
-                                        (2 jours)
-                                    </div>
-				    <div>
-				    <ul class="fa-ul ok-check">
-					<li><i class="fa-li fa fa-check"></i>
-					    <li><i class="fa-li fa fa-check"></i>Apprendre à reconnaître le big data</li>
-					    <li><i class="fa-li fa fa-check"></i>Les outils</li>
-					    <li><i class="fa-li fa fa-check"></i>Les techniques</li>
-				    </ul>
-                                    <p align="right">plus...</p>
-				    </div>
-                                </div> <!-- event-header -->
-                            </div> <!-- schedule-body -->
-                        </a>
-					</li>
+            <li>
+              <a href="formations/techniques-big-data.html">
+                <div class="schedule-body">
+                  <div class="event-header">
+                    <div class="rubrique">
+                      Big Data
+                    </div>
+                    <div class="titre">
+                      Les techniques du Big Data
+                      (2 jours)
+                    </div>
+		    <div>
+		      <ul class="fa-ul ok-check">
+			<li><i class="fa-li fa fa-check"></i>
+			<li><i class="fa-li fa fa-check"></i>Apprendre à reconnaître le big data</li>
+			<li><i class="fa-li fa fa-check"></i>Les outils</li>
+			<li><i class="fa-li fa fa-check"></i>Les techniques</li>
+		      </ul>
+                      <p align="right">plus...</p>
+		    </div>
+                  </div> <!-- event-header -->
+                </div> <!-- schedule-body -->
+              </a>
+	    </li>
 
-					<!-- ---------------------------------------- -->
-                     <li>
-                        <a href="">
-                            <div class="schedule-body">
-                                <div class="event-header">
-                                    <div class="rubrique">
-                                        Statistiques
-                                    </div>
-                                    <div class="titre">
-                                        Introduction à la statistique
-                                        (2 jours)
-                                    </div>
-				    <div>
-				    <ul class="fa-ul ok-check">
-					<li><i class="fa-li fa fa-check"></i>
-					    <li><i class="fa-li fa fa-check"></i>Les données (categoriques, ordinales, etc.)</li>
-					    <li><i class="fa-li fa fa-check"></i>Conception expérimentale</li>
-					    <li><i class="fa-li fa fa-check"></i>Probabilité, indépendence, probabilité condionnelle, théorème de Bayes</li>
-					    <li><i class="fa-li fa fa-check"></i>Les lois de probabilité, le théorème central limite, signification statistique, valeurs <i>p</i></li>
-					    <li><i class="fa-li fa fa-check"></i>Estimation</li>
-					    <li><i class="fa-li fa fa-check"></i>Régression, moindres carrées, anova, chi carré</li>
-				    </ul>
-                                    <p align="right">plus...</p>
-				    </div>
-                                </div> <!-- event-header -->
-                            </div> <!-- schedule-body -->
-                        </a>
-					</li>
-					
-					<!-- ---------------------------------------- -->
-                     <li>
-                        <a href="">
-                            <div class="schedule-body">
-                                <div class="event-header">
-                                    <div class="rubrique">
-                                        Machine Learning
-                                    </div>
-                                    <div class="titre">
-                                        Moteur de recommendation
-                                        (1 jour)
-                                    </div>
-				    <div>
-				    <ul class="fa-ul ok-check">
-					<li><i class="fa-li fa fa-check"></i>
-					    <li><i class="fa-li fa fa-check"></i>Comprendre les points forts et les risques de faiblesse des différents technique</li>
-					    <li><i class="fa-li fa fa-check"></i>Filtrage sur le contenu</li>
-					    <li><i class="fa-li fa fa-check"></i>Filtrage collaboratif</li>
-					    <li><i class="fa-li fa fa-check"></i>Clustering et réduction de dimensionalité, démarrage à froid</li>
-					    <li><i class="fa-li fa fa-check"></i>Retrouver rapidement des données avec LSH (locality sensitive hashing)</li>
-				    </ul>
-                                    <p align="right">plus...</p>
-				    </div>
-                                </div> <!-- event-header -->
-                            </div> <!-- schedule-body -->
-                        </a>
-					</li>
+	    <!-- ---------------------------------------- -->
 
-					<!-- ---------------------------------------- -->
+            <li>
+              <a href="">
+                <div class="schedule-body">
+                  <div class="event-header">
+                    <div class="rubrique">
+                      Machine Learning
+                    </div>
+                    <div class="titre">
+                      Moteur de recommendation
+                      (1 jour)
+                    </div>
+		    <div>
+		      <ul class="fa-ul ok-check">
+			<li><i class="fa-li fa fa-check"></i>
+			<li><i class="fa-li fa fa-check"></i>Comprendre les points forts et les risques de faiblesse des différents technique</li>
+			<li><i class="fa-li fa fa-check"></i>Filtrage sur le contenu</li>
+			<li><i class="fa-li fa fa-check"></i>Filtrage collaboratif</li>
+			<li><i class="fa-li fa fa-check"></i>Clustering et réduction de dimensionalité, démarrage à froid</li>
+			<li><i class="fa-li fa fa-check"></i>Retrouver rapidement des données avec LSH (locality sensitive hashing)</li>
+		      </ul>
+                      <p align="right">plus...</p>
+		    </div>
+                  </div> <!-- event-header -->
+                </div> <!-- schedule-body -->
+              </a>
+	    </li>
+
+	    <!-- ---------------------------------------- -->
 
 	    <li>
               <a id="deep-learning">
@@ -362,37 +334,30 @@
                       Deep Learning
                     </div>
                     <div class="titre">
-                      Théorie & application du Deep Learning (3 jours)
+                       (3 jours)
                     </div>
 		    <div>
 		      <ul class="fa-ul ok-check">
 			<li>
-                          <i class="fa-li fa fa-check"></i>
-                          Comprendre les bases théoriques
+                          <i class="fa-li fa fa-check"></i> Construire
+                          et entraîner des modèles état de l’art en
+                          vision par ordinateur et traitement des
+                          langues
                         </li>
 			<li>
-                          <i class="fa-li fa fa-check"></i>
-                          Traiter des images et des vidéos
+                          <i class="fa-li fa fa-check"></i> Analyser
+                          et optimiser l’apprentissage de vos modèles
                         </li>
 			<li>
-                          <i class="fa-li fa fa-check"></i>
-                          Analyser et générer du texte
+                          <i class="fa-li fa fa-check"></i> Traiter
+                          des images (Classification, segmentation
+                          sémantique, génération, traduction)
                         </li>
 			<li>
-                          <i class="fa-li fa fa-check"></i>
-                          Répondre automatiquement à des questions
-                        </li>
-                        <li>
-                          <i class="fa-li fa fa-check"></i>
-                          Apprendre des programmes
-                        </li>
-                        <li>
-                          <i class="fa-li fa fa-check"></i>
-                          Coder des modèles de Deep Learning
-                        </li>
-                        <li>
-                          <i class="fa-li fa fa-check"></i> Gérer les
-                          (longs) apprentissages de réseaux
+                          <i class="fa-li fa fa-check"></i> Traiter
+                          des données textuelles (traduction
+                          automatique, génération, classification,
+                          détection de polarité)
                         </li>
 		      </ul>
                       <p align="right">plus…</p>
@@ -404,22 +369,150 @@
 
 	    <!-- ---------------------------------------- -->
 
-				</ul>
-			</div>
-		</div>
+	    <li>
+              <a id="deep-learning-cv">
+                <div class="schedule-body">
+                  <div class="event-header">
+                    <div class="rubrique">
+                      Deep Learning
+                    </div>
+                    <div class="titre">
+                      Computer Vision (2 jours)
+                    </div>
+		    <div>
+		      <ul class="fa-ul ok-check">
+			<li>
+                          <i class="fa-li fa fa-check"></i> Construire
+                          et entraîner des modèles état de l’art en
+                          vision par ordinateur
+                        </li>
+			<li>
+                          <i class="fa-li fa fa-check"></i> Analyser
+                          et optimiser l’apprentissage de vos modèles
+                        </li>
+			<li>
+                          <i class="fa-li fa fa-check"></i> Détecter
+                          des objets dans des images
+                        </li>
+			<li>
+                          <i class="fa-li fa fa-check"></i> Classifier
+                          des images
+                        </li>
+                        <li>
+                          <i class="fa-li fa fa-check"></i> Ségmenter
+                          sémantiquement des images
+                        </li>
+                        <li>
+                          <i class="fa-li fa fa-check"></i> Générer
+                          des images
+                        </li>
+                        <li>
+                          <i class="fa-li fa fa-check"></i> Traduire
+                          des images
+                        </li>
+		      </ul>
+                      <p align="right">plus…</p>
+		    </div>
+                  </div> <!-- event-header -->
+                </div> <!-- schedule-body -->
+              </a>
+	    </li>
+
+            <!-- ---------------------------------------- -->
+
+	    <li>
+              <a id="deep-learning-nlp">
+                <div class="schedule-body">
+                  <div class="event-header">
+                    <div class="rubrique">
+                      Deep Learning
+                    </div>
+                    <div class="titre">
+                      Natural Language Processing (2 jours)
+                    </div>
+		    <div>
+		      <ul class="fa-ul ok-check">
+			<li>
+                          <i class="fa-li fa fa-check"></i> Construire
+                          et entraîner des modèles état de l’art en
+                          traitement du langage
+                        </li>
+			<li>
+                          <i class="fa-li fa fa-check"></i> Analyser
+                          et optimiser l’apprentissage des vos modèles
+                        </li>
+			<li>
+                          <i class="fa-li fa fa-check"></i> Traduire
+                          automatiquement des documents
+                        </li>
+			<li>
+                          <i class="fa-li fa fa-check"></i> Détecter
+                          la polarité (sentiment) de textes
+                        </li>
+                        <li>
+                          <i class="fa-li fa fa-check"></i> Résumer
+                          automatiquement des documents
+                        </li>
+                        <li>
+                          <i class="fa-li fa fa-check"></i> Générer du
+                          texte (chatbots)
+                        </li>
+		      </ul>
+                      <p align="right">plus…</p>
+		    </div>
+                  </div> <!-- event-header -->
+                </div> <!-- schedule-body -->
+              </a>
+	    </li>
+
+	    <!-- ---------------------------------------- -->
+
+            <li>
+              <a href="">
+                <div class="schedule-body">
+                  <div class="event-header">
+                    <div class="rubrique">
+                      Statistiques
+                    </div>
+                    <div class="titre">
+                      Introduction à la statistique
+                      (2 jours)
+                    </div>
+		    <div>
+		      <ul class="fa-ul ok-check">
+			<li><i class="fa-li fa fa-check"></i>
+			<li><i class="fa-li fa fa-check"></i>Les données (categoriques, ordinales, etc.)</li>
+			<li><i class="fa-li fa fa-check"></i>Conception expérimentale</li>
+			<li><i class="fa-li fa fa-check"></i>Probabilité, indépendence, probabilité condionnelle, théorème de Bayes</li>
+			<li><i class="fa-li fa fa-check"></i>Les lois de probabilité, le théorème central limite, signification statistique, valeurs <i>p</i></li>
+			<li><i class="fa-li fa fa-check"></i>Estimation</li>
+			<li><i class="fa-li fa fa-check"></i>Régression, moindres carrées, anova, chi carré</li>
+		      </ul>
+                      <p align="right">plus...</p>
+		    </div>
+                  </div> <!-- event-header -->
+                </div> <!-- schedule-body -->
+              </a>
+	    </li>
+
+	    <!-- ---------------------------------------- -->
+
+          </ul>
 	</div>
+      </div>
+    </div>
 </div>
 
 
 <!-- Mailing List -->
 <div id="RegisterModal" class="reveal-modal small" data-reveal>
-    <h3>Merci d&#39;avoir rejoint la liste diffusion !</h3>
-    <a class="close-reveal-modal">&#215;</a>
+  <h3>Merci d&#39;avoir rejoint la liste diffusion !</h3>
+  <a class="close-reveal-modal">&#215;</a>
 </div>
 
 <div id="ErrorModal" class="reveal-modal small" data-reveal>
-    <h3>Vérifier votre nom ou votre adresse email !</h3>
-    <a class="close-reveal-modal">&#215;</a>
+  <h3>Vérifier votre nom ou votre adresse email !</h3>
+  <a class="close-reveal-modal">&#215;</a>
 </div>
 
 <!-- ---------------------------------------------------------------------- -->
@@ -427,386 +520,560 @@
 <!-- ---------------------------------------------------------------------- -->
 
 <div id="MLIntroModal" class="reveal-modal" data-reveal>
-    <h4 class="modal-title">Introduction à l'Apprentissage Automatique</h4>
-    <ul class="fa-ul ok-check">
-        <li><i class="fa-li fa fa-check"></i>Principes de l'apprentissage automatique</li>
-	<ul>
-	    <li>Définir un problème</li>
-	    <li>Transformer le problème en termes mathématique</li>
-	    <li>Nous diviserons notre temps 50% théorie / 50% pratique (python : scikit-learn et TensorFlow)</li>
-	    <li>Objectif : pouvoir aborder de vrai problème de ML !</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Du monde réel au monde mathématique (modélisation) et de retour (valorisation)</li>
-	<ul>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Introduction aux données : exploration
-            et nettoyage avec pandas</li>
-	<ul>
-	    <li>Apprendre à explorer ses données</li>
-	    <li>Apprendre à nettoyer ses données</li>
-	    <li>Apprendre à visualiser ses données rapidement pour mieux les comprendre</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Introduction à scikit-learn et à TensorFlow</li>
-	<ul>
-	    <li>Apprendre les deux librarie phare pour commencer et pour la production</li>
-	    <li>Construire de vrai modèles</li>
-	    <li>Si un jour vous voulez essayer d'autres libraries, vous aurez une bonne base</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Régression linéaire</li>
-	<ul>
-	    <li>Le classifieur de base sur lequel tout est bâti</li>
-	    <li>Comprendre ses principes sans galérer avec des maths</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Régression logistique</li>
-	<ul>
-	    <li>L'extension de la classification en sortie catégorique</li>
-	    <li>Un des principes de base des réseaux de neuronnes</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La machine à support vectoriel (SVM)</li>
-	<ul>
-	    <li>Apprendre des techniques de classification dans les domaines plus complexes</li>
-	    <li>L'état de l'art avant les réseaux de deep learning récents--et beaucoup plus facile</li>
-	    <li>Jouer avec des exemples importants : la reconnaissance</li>
-	</ul>
+  <h4 class="modal-title">Introduction à l'Apprentissage Automatique</h4>
+  <ul class="fa-ul ok-check">
+    <li><i class="fa-li fa fa-check"></i>Principes de l'apprentissage automatique</li>
+    <ul>
+      <li>Définir un problème</li>
+      <li>Transformer le problème en termes mathématique</li>
+      <li>Nous diviserons notre temps 50% théorie / 50% pratique (python : scikit-learn et TensorFlow)</li>
+      <li>Objectif : pouvoir aborder de vrai problème de ML !</li>
     </ul>
-    <a class="close-reveal-modal">&#215;</a>
-    <p>Durée : 3 jours
-	<br>Prix : 1900 € par personne
-	<br>Privatisation possible.<p>
+    <li><i class="fa-li fa fa-check"></i>Du monde réel au monde mathématique (modélisation) et de retour (valorisation)</li>
+    <ul>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Introduction aux données : exploration
+      et nettoyage avec pandas</li>
+    <ul>
+      <li>Apprendre à explorer ses données</li>
+      <li>Apprendre à nettoyer ses données</li>
+      <li>Apprendre à visualiser ses données rapidement pour mieux les comprendre</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Introduction à scikit-learn et à TensorFlow</li>
+    <ul>
+      <li>Apprendre les deux librarie phare pour commencer et pour la production</li>
+      <li>Construire de vrai modèles</li>
+      <li>Si un jour vous voulez essayer d'autres libraries, vous aurez une bonne base</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Régression linéaire</li>
+    <ul>
+      <li>Le classifieur de base sur lequel tout est bâti</li>
+      <li>Comprendre ses principes sans galérer avec des maths</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Régression logistique</li>
+    <ul>
+      <li>L'extension de la classification en sortie catégorique</li>
+      <li>Un des principes de base des réseaux de neuronnes</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La machine à support vectoriel (SVM)</li>
+    <ul>
+      <li>Apprendre des techniques de classification dans les domaines plus complexes</li>
+      <li>L'état de l'art avant les réseaux de deep learning récents--et beaucoup plus facile</li>
+      <li>Jouer avec des exemples importants : la reconnaissance</li>
+    </ul>
+  </ul>
+  <a class="close-reveal-modal">&#215;</a>
+  <p>Durée : 3 jours
+    <br>Prix : 1900 € par personne
+    <br>Privatisation possible.<p>
 </div>
 
 <!-- ---------------------------------------------------------------------- -->
 
 <div id="MLTechniquesA" class="reveal-modal" data-reveal>
-    <h4 class="modal-title">Techniques avancées du ML</h4>
-    <ul class="fa-ul ok-check">
-        <li><i class="fa-li fa fa-check"></i>Les réseaux de neuronnes</li>
-	<ul>
-	    <li>La technique phare des dernières années</li>
-	    <li>Comprendre les différentes types de réseaux de neuronnes</li>
-	    <li>Comprendre les bases du Deep Learning</li>
-	    <li>Construire des réseaux de neuronnes simples mais bien fonctionnels !</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La reconnaissance d'images</li>
-	<ul>
-	    <li>Comprendre pourquoi les visages sont spéciales !</li>
-	    <li>Apprendre à reconnaître des visages</li>
-	    <li>Apprendre des subtilités et des limitations de différentes approches au problème</li>
-	    <li>Construire un classifieur de visage qui marche !</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La reconnaissance d'écriture</li>
-	<ul>
-	    <li>Comprendre des subtilités de l'écriture et pourquoi c'est plusieurs problèmes différents</li>
-	    <li>Apprendre des approches différents selon contexte : pression ou vélocité du stylo, ordre de traits, ou simplement des images fixe après écriture</li>
-	    <li>Construire un classifieur d'écriture à partir de la base classique MNIST</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Les séries temporelles </li>
-	<ul>
-	    <li>Comprendre pourquoi le temps est spécial</li>
-	    <li>Comprendre quelques structures spéciales dans les séries temporelles</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La reconnaissance de musique</li>
-	<ul>
-	    <li>La musique présente encore un contexte spéciale -- série temporelle mais avec encore plus de structure</li>
-	    <li>Apprendre comment reconnaître la musique</li>
-	    <li>Discutons quelques challenge dans sa classification</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Les anomalies </li>
-	<ul>
-	    <li>Une introduction à la détection d'intrusion et de la fraude</li>
-	</ul>
-    </ul>
-    <a class="close-reveal-modal">&#215;</a>
-    <p>Durée : 3 jour
-	<br> Prix : 1900 € par personne
-	<br> Privatisation possible<p>
-</div>
-
-<!-- ---------------------------------------------------------------------- -->
-
-<div id="Theorie" class="reveal-modal" data-reveal>
-    <h4 class="modal-title">Intensif théorie</h4>
-    <ul class="fa-ul ok-check">
-        <li><i class="fa-li fa fa-check"></i>Principes de l'apprentissage automatique</li>
-	<ul>
-	    <li>Définir un problème</li>
-	    <li>Transformer le problème en termes mathématique</li>
-	    <li>Nous diviserons notre temps 50% théorie / 50% pratique (python : scikit-learn et TensorFlow)</li>
-	    <li>Objectif : pouvoir aborder de vrai problème de ML !</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Du monde réel au monde mathématique (modélisation) et de retour (valorisation)</li>
-	<ul>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Régression linéaire</li>
-	<ul>
-	    <li>Le classifieur de base sur lequel tout est bâti</li>
-	    <li>Comprendre ses principes sans galérer avec des maths</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Régression logistique</li>
-	<ul>
-	    <li>L'extension de la classification en sortie catégorique</li>
-	    <li>Un des principes de base des réseaux de neuronnes</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La machine à support vectoriel (SVM)</li>
-	<ul>
-	    <li>Apprendre des techniques de classification dans les domaines plus complexes</li>
-	    <li>L'état de l'art avant les réseaux de deep learning récents--et beaucoup plus facile</li>
-	    <li>Jouer avec des exemples importants : la reconnaissance</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Les réseaux de neuronnes</li>
-	<ul>
-	    <li>La technique phare des dernières années</li>
-	    <li>Comprendre les différentes types de réseaux de neuronnes</li>
-	    <li>Comprendre les bases du Deep Learning</li>
-	    <li>Construire des réseaux de neuronnes simples mais bien fonctionnels !</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La reconnaissance d'images</li>
-	<ul>
-	    <li>Comprendre pourquoi les visages sont spéciales !</li>
-	    <li>Apprendre à reconnaître des visages</li>
-	    <li>Apprendre des subtilités et des limitations de différentes approches au problème</li>
-	    <li>Construire un classifieur de visage qui marche !</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La reconnaissance d'écriture</li>
-	<ul>
-	    <li>Comprendre des subtilités de l'écriture et pourquoi c'est plusieurs problèmes différents</li>
-	    <li>Apprendre des approches différents selon contexte : pression ou vélocité du stylo, ordre de traits, ou simplement des images fixe après écriture</li>
-	    <li>Construire un classifieur d'écriture à partir de la base classique MNIST</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Les séries temporelles </li>
-	<ul>
-	    <li>Comprendre pourquoi le temps est spécial</li>
-	    <li>Comprendre quelques structures spéciales dans les séries temporelles</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La reconnaissance de musique</li>
-	<ul>
-	    <li>La musique présente encore un contexte spéciale -- série temporelle mais avec encore plus de structure</li>
-	    <li>Apprendre comment reconnaître la musique</li>
-	    <li>Discutons quelques challenge dans sa classification</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Les anomalies </li>
-	<ul>
-	    <li>Une introduction à la détection d'intrusion et de la fraude</li>
-	</ul>
-    </ul>
-    <a class="close-reveal-modal">&#215;</a>
-    <p>Durée : 3 jours
-	<br> Prix : 2000 € par personne
-	<br> Privatisation possible.<p>
-</div>
-
-
-<!-- ---------------------------------------------------------------------- -->
-
-<div id="Cours" class="reveal-modal" data-reveal>
-    <h4 class="modal-title">Cours sur l'année</h4>
-    <ul class="fa-ul ok-check">
-        <li><i class="fa-li fa fa-check"></i>Principes de l'apprentissage automatique</li>
-	<ul>
-	    <li>Définir un problème</li>
-	    <li>Transformer le problème en termes mathématique</li>
-	    <li>Nous diviserons notre temps 50% théorie / 50% pratique (python : scikit-learn et TensorFlow)</li>
-	    <li>Objectif : pouvoir aborder de vrai problème de ML !</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Du monde réel au monde mathématique (modélisation) et de retour (valorisation)</li>
-	<ul>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Régression linéaire</li>
-	<ul>
-	    <li>Le classifieur de base sur lequel tout est bâti</li>
-	    <li>Comprendre ses principes sans galérer avec des maths</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Régression logistique</li>
-	<ul>
-	    <li>L'extension de la classification en sortie catégorique</li>
-	    <li>Un des principes de base des réseaux de neuronnes</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La machine à support vectoriel (SVM)</li>
-	<ul>
-	    <li>Apprendre des techniques de classification dans les domaines plus complexes</li>
-	    <li>L'état de l'art avant les réseaux de deep learning récents--et beaucoup plus facile</li>
-	    <li>Jouer avec des exemples importants : la reconnaissance</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Les réseaux de neuronnes</li>
-	<ul>
-	    <li>La technique phare des dernières années</li>
-	    <li>Comprendre les différentes types de réseaux de neuronnes</li>
-	    <li>Comprendre les bases du Deep Learning</li>
-	    <li>Construire des réseaux de neuronnes simples mais bien fonctionnels !</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La reconnaissance d'images</li>
-	<ul>
-	    <li>Comprendre pourquoi les visages sont spéciales !</li>
-	    <li>Apprendre à reconnaître des visages</li>
-	    <li>Apprendre des subtilités et des limitations de différentes approches au problème</li>
-	    <li>Construire un classifieur de visage qui marche !</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La reconnaissance d'écriture</li>
-	<ul>
-	    <li>Comprendre des subtilités de l'écriture et pourquoi c'est plusieurs problèmes différents</li>
-	    <li>Apprendre des approches différents selon contexte : pression ou vélocité du stylo, ordre de traits, ou simplement des images fixe après écriture</li>
-	    <li>Construire un classifieur d'écriture à partir de la base classique MNIST</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Les séries temporelles </li>
-	<ul>
-	    <li>Comprendre pourquoi le temps est spécial</li>
-	    <li>Comprendre quelques structures spéciales dans les séries temporelles</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>La reconnaissance de musique</li>
-	<ul>
-	    <li>La musique présente encore un contexte spéciale -- série temporelle mais avec encore plus de structure</li>
-	    <li>Apprendre comment reconnaître la musique</li>
-	    <li>Discutons quelques challenge dans sa classification</li>
-	</ul>
-        <li><i class="fa-li fa fa-check"></i>Les anomalies </li>
-	<ul>
-	    <li>Une introduction à la détection d'intrusion et de la fraude</li>
-	</ul>
-    </ul>
-    <a class="close-reveal-modal">&#215;</a>
-    <p>Durée : 3 heures en fin d'après-midi, toutes les deux semaines, pendant dix séances
-	<br> Prix : 2000 € par personne
-	<br> Privatisation possible.<p>
-</div>
-
-
-<!-- ---------------------------------------------------------------------- -->
-
-<div id="MLScikitTF" class="reveal-modal" data-reveal>
-    <h4 class="modal-title">Introduction à scikit-learn et TensorFlow</h4>
-    <ul class="fa-ul ok-check">
-        <li><i class="fa-li fa fa-check"></i>Apprendre les deux libraries phares pour commencer et pour la production</li>
-        <li><i class="fa-li fa fa-check"></i>Construire de vrai modèles</li>
-        <li><i class="fa-li fa fa-check"></i>Si un jour vous voulez essayer d'autres libraries, vous aurez une bonne base</li>
-    </ul>
-    <a class="close-reveal-modal">&#215;</a>
-    <p>Durée : 1 jour.<br>
-	Prochain séance : nous demander (Nantes)
-	<br> Prix : 600 € par personne
-	<br>Prix réduit : 400 € si acheté avant le 28 octobre
-	<br> Privatisation possible<p>
-</div>
-
-<!-- ---------------------------------------------------------------------- -->
-
-<div id="MLDeepLearningModal" class="reveal-modal" data-reveal>
-  <h4 class="modal-title">Deep Learning</h4>
-  <p>
-    Après avoir bien assimilé les bases théoriques, nous verrons
-    plusieurs modèles spécifiques par leurs applications principales :
-  </p>
+  <h4 class="modal-title">Techniques avancées du ML</h4>
   <ul class="fa-ul ok-check">
-    <li><i class="fa-li fa fa-check"></i>Les bases théoriques
-      <ul>
-        <li>Développer une forte intuition derrière les concepts fondamentaux</li>
-        <li>Comprendre les différentes types de réseaux de neurones</li>
-        <li>Cerner les limites des modèles</li>
-        <li>Démystifier les mathématiques requises</li>
-      </ul>
-    </li>
-    <li><i class="fa-li fa fa-check"></i>Le traitement d'images et de
-      vidéos
-      <ul>
-        <li>Les modèles à convolutions</li>
-        <li>Les méthodes de détection d'objets et de
-          classification</li>
-      </ul>
-    </li>
-    <li><i class="fa-li fa fa-check"></i>Le traitement de texte
-      <ul>
-        <li>Les modèles récurrents</li>
-        <li>Les embeddings (<i>word2vec</i>)</li>
-        <li>Les modèles <i>sequence to sequence</i></li>
-        <li>Les modèles à attention</li>
-        <li>Les modèles hiérarchiques</li>
-      </ul>
-    </li>
-    <li><i class="fa-li fa fa-check"></i>Le question/réponse
-      <ul>
-        <li>Les modèles à mémoire</li>
-      </ul>
-    </li>
-    <li><i class="fa-li fa fa-check"></i>L'apprentissage de programmes
-      <ul>
-        <li>Les modèles récursifs à mémoire</li>
-      </ul>
-    </li>
-    <li><i class="fa-li fa fa-check"></i>Programmation en Deep Learning
-      <ul>
-        <li>Comprendre les spécificités de chaque framework
-          (tensorflow, torch, pytorch, theano)</li>
-        <li>Repartir avec une compréhension suffisante pour réutiliser
-          du code existant et coder soi-même des modèles complets</li>
-        <li>Intégrer des modèles de Deep Learning dans une
-          architecture logicielle</li>
-      </ul>
-    </li>
-    <li><i class="fa-li fa fa-check"></i>Gestion des apprentissages
-      <ul>
-        <li>Organisation des apprentissages en fonction du matériel
-          disponible</li>
-        <li>Diagnostic et suivi des apprentissages</li>
-        <li>Bonnes pratiques</li>
-      </ul>
-    </li>
+    <li><i class="fa-li fa fa-check"></i>Les réseaux de neuronnes</li>
+    <ul>
+      <li>La technique phare des dernières années</li>
+      <li>Comprendre les différentes types de réseaux de neuronnes</li>
+      <li>Comprendre les bases du Deep Learning</li>
+      <li>Construire des réseaux de neuronnes simples mais bien fonctionnels !</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La reconnaissance d'images</li>
+    <ul>
+      <li>Comprendre pourquoi les visages sont spéciales !</li>
+      <li>Apprendre à reconnaître des visages</li>
+      <li>Apprendre des subtilités et des limitations de différentes approches au problème</li>
+      <li>Construire un classifieur de visage qui marche !</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La reconnaissance d'écriture</li>
+    <ul>
+      <li>Comprendre des subtilités de l'écriture et pourquoi c'est plusieurs problèmes différents</li>
+      <li>Apprendre des approches différents selon contexte : pression ou vélocité du stylo, ordre de traits, ou simplement des images fixe après écriture</li>
+      <li>Construire un classifieur d'écriture à partir de la base classique MNIST</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Les séries temporelles </li>
+    <ul>
+      <li>Comprendre pourquoi le temps est spécial</li>
+      <li>Comprendre quelques structures spéciales dans les séries temporelles</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La reconnaissance de musique</li>
+    <ul>
+      <li>La musique présente encore un contexte spéciale -- série temporelle mais avec encore plus de structure</li>
+      <li>Apprendre comment reconnaître la musique</li>
+      <li>Discutons quelques challenge dans sa classification</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Les anomalies </li>
+    <ul>
+      <li>Une introduction à la détection d'intrusion et de la fraude</li>
+    </ul>
   </ul>
   <a class="close-reveal-modal">&#215;</a>
-  <p>Durée : 3 jours
+  <p>Durée : 3 jour
     <br> Prix : 1900 € par personne
     <br> Privatisation possible<p>
 </div>
 
 <!-- ---------------------------------------------------------------------- -->
 
+<div id="Theorie" class="reveal-modal" data-reveal>
+  <h4 class="modal-title">Intensif théorie</h4>
+  <ul class="fa-ul ok-check">
+    <li><i class="fa-li fa fa-check"></i>Principes de l'apprentissage automatique</li>
+    <ul>
+      <li>Définir un problème</li>
+      <li>Transformer le problème en termes mathématique</li>
+      <li>Nous diviserons notre temps 50% théorie / 50% pratique (python : scikit-learn et TensorFlow)</li>
+      <li>Objectif : pouvoir aborder de vrai problème de ML !</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Du monde réel au monde mathématique (modélisation) et de retour (valorisation)</li>
+    <ul>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Régression linéaire</li>
+    <ul>
+      <li>Le classifieur de base sur lequel tout est bâti</li>
+      <li>Comprendre ses principes sans galérer avec des maths</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Régression logistique</li>
+    <ul>
+      <li>L'extension de la classification en sortie catégorique</li>
+      <li>Un des principes de base des réseaux de neuronnes</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La machine à support vectoriel (SVM)</li>
+    <ul>
+      <li>Apprendre des techniques de classification dans les domaines plus complexes</li>
+      <li>L'état de l'art avant les réseaux de deep learning récents--et beaucoup plus facile</li>
+      <li>Jouer avec des exemples importants : la reconnaissance</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Les réseaux de neuronnes</li>
+    <ul>
+      <li>La technique phare des dernières années</li>
+      <li>Comprendre les différentes types de réseaux de neuronnes</li>
+      <li>Comprendre les bases du Deep Learning</li>
+      <li>Construire des réseaux de neuronnes simples mais bien fonctionnels !</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La reconnaissance d'images</li>
+    <ul>
+      <li>Comprendre pourquoi les visages sont spéciales !</li>
+      <li>Apprendre à reconnaître des visages</li>
+      <li>Apprendre des subtilités et des limitations de différentes approches au problème</li>
+      <li>Construire un classifieur de visage qui marche !</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La reconnaissance d'écriture</li>
+    <ul>
+      <li>Comprendre des subtilités de l'écriture et pourquoi c'est plusieurs problèmes différents</li>
+      <li>Apprendre des approches différents selon contexte : pression ou vélocité du stylo, ordre de traits, ou simplement des images fixe après écriture</li>
+      <li>Construire un classifieur d'écriture à partir de la base classique MNIST</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Les séries temporelles </li>
+    <ul>
+      <li>Comprendre pourquoi le temps est spécial</li>
+      <li>Comprendre quelques structures spéciales dans les séries temporelles</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La reconnaissance de musique</li>
+    <ul>
+      <li>La musique présente encore un contexte spéciale -- série temporelle mais avec encore plus de structure</li>
+      <li>Apprendre comment reconnaître la musique</li>
+      <li>Discutons quelques challenge dans sa classification</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Les anomalies </li>
+    <ul>
+      <li>Une introduction à la détection d'intrusion et de la fraude</li>
+    </ul>
+  </ul>
+  <a class="close-reveal-modal">&#215;</a>
+  <p>Durée : 3 jours
+    <br> Prix : 2000 € par personne
+    <br> Privatisation possible.<p>
+</div>
+
+
+<!-- ---------------------------------------------------------------------- -->
+
+<div id="Cours" class="reveal-modal" data-reveal>
+  <h4 class="modal-title">Cours sur l'année</h4>
+  <ul class="fa-ul ok-check">
+    <li><i class="fa-li fa fa-check"></i>Principes de l'apprentissage automatique</li>
+    <ul>
+      <li>Définir un problème</li>
+      <li>Transformer le problème en termes mathématique</li>
+      <li>Nous diviserons notre temps 50% théorie / 50% pratique (python : scikit-learn et TensorFlow)</li>
+      <li>Objectif : pouvoir aborder de vrai problème de ML !</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Du monde réel au monde mathématique (modélisation) et de retour (valorisation)</li>
+    <ul>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Régression linéaire</li>
+    <ul>
+      <li>Le classifieur de base sur lequel tout est bâti</li>
+      <li>Comprendre ses principes sans galérer avec des maths</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Régression logistique</li>
+    <ul>
+      <li>L'extension de la classification en sortie catégorique</li>
+      <li>Un des principes de base des réseaux de neuronnes</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La machine à support vectoriel (SVM)</li>
+    <ul>
+      <li>Apprendre des techniques de classification dans les domaines plus complexes</li>
+      <li>L'état de l'art avant les réseaux de deep learning récents--et beaucoup plus facile</li>
+      <li>Jouer avec des exemples importants : la reconnaissance</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Les réseaux de neuronnes</li>
+    <ul>
+      <li>La technique phare des dernières années</li>
+      <li>Comprendre les différentes types de réseaux de neuronnes</li>
+      <li>Comprendre les bases du Deep Learning</li>
+      <li>Construire des réseaux de neuronnes simples mais bien fonctionnels !</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La reconnaissance d'images</li>
+    <ul>
+      <li>Comprendre pourquoi les visages sont spéciales !</li>
+      <li>Apprendre à reconnaître des visages</li>
+      <li>Apprendre des subtilités et des limitations de différentes approches au problème</li>
+      <li>Construire un classifieur de visage qui marche !</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La reconnaissance d'écriture</li>
+    <ul>
+      <li>Comprendre des subtilités de l'écriture et pourquoi c'est plusieurs problèmes différents</li>
+      <li>Apprendre des approches différents selon contexte : pression ou vélocité du stylo, ordre de traits, ou simplement des images fixe après écriture</li>
+      <li>Construire un classifieur d'écriture à partir de la base classique MNIST</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Les séries temporelles </li>
+    <ul>
+      <li>Comprendre pourquoi le temps est spécial</li>
+      <li>Comprendre quelques structures spéciales dans les séries temporelles</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>La reconnaissance de musique</li>
+    <ul>
+      <li>La musique présente encore un contexte spéciale -- série temporelle mais avec encore plus de structure</li>
+      <li>Apprendre comment reconnaître la musique</li>
+      <li>Discutons quelques challenge dans sa classification</li>
+    </ul>
+    <li><i class="fa-li fa fa-check"></i>Les anomalies </li>
+    <ul>
+      <li>Une introduction à la détection d'intrusion et de la fraude</li>
+    </ul>
+  </ul>
+  <a class="close-reveal-modal">&#215;</a>
+  <p>Durée : 3 heures en fin d'après-midi, toutes les deux semaines, pendant dix séances
+    <br> Prix : 2000 € par personne
+    <br> Privatisation possible.<p>
+</div>
+
+
+<!-- ---------------------------------------------------------------------- -->
+
+<div id="MLScikitTF" class="reveal-modal" data-reveal>
+  <h4 class="modal-title">Introduction à scikit-learn et TensorFlow</h4>
+  <ul class="fa-ul ok-check">
+    <li><i class="fa-li fa fa-check"></i>Apprendre les deux libraries phares pour commencer et pour la production</li>
+    <li><i class="fa-li fa fa-check"></i>Construire de vrai modèles</li>
+    <li><i class="fa-li fa fa-check"></i>Si un jour vous voulez essayer d'autres libraries, vous aurez une bonne base</li>
+  </ul>
+  <a class="close-reveal-modal">&#215;</a>
+  <p>Durée : 1 jour.<br>
+    Prochain séance : nous demander (Nantes)
+    <br> Prix : 600 € par personne
+    <br>Prix réduit : 400 € si acheté avant le 28 octobre
+    <br> Privatisation possible<p>
+</div>
+
+<!-- ---------------------------------------------------------------------- -->
+
+<div id="MLDeepLearningModal" class="reveal-modal" data-reveal>
+  <h4 class="modal-title">Deep Learning</h4>
+  <p>Cette formation présente les fondamentaux du deep learning ainsi
+    que les principales techniques utilisées dans l’industrie. Les
+    travaux pratiques utiliseront des données réelles et présenteront
+    des modèles récents.</p>
+  <p>Certains points aborderont des sujets récents de recherche.</p>
+  <h5>Public</h5>
+  <p>Data scientists, programmeuses et programmeurs désireux
+    d’appliquer les dernières avancées de l’apprentissage automatique
+    (deep learning).</p>
+  <h5>Vous serez capable de</h5>
+  <ul class="fa-ul ok-check">
+    <li>Construire et entraîner des modèles état de l’art en vision
+      par ordinateur et traitement du langage</li>
+    <li>Analyser et optimiser l’apprentissage de vos modèles</li>
+    <li>Traiter des images</li>
+    <li>Traiter des données textuelles</li>
+  </ul>
+  <h5>Prérequis</h5>
+  <p>Bon niveau général en informatique, familiarité avec le machine
+    learning classique.</p>
+  <h5>Programme</h5>
+  <ul class="fa-ul ok-check">
+    <li>Introduction
+      <ul>
+        <li>Qu’est-ce que le deep learning</li>
+        <li>Domaines du deep learning</li>
+      </ul>
+    </li>
+    <li>Fondamentaux
+      <ul>
+        <li>Réseaux de neurones</li>
+        <li>Rétropropagation du gradient</li>
+        <li>Non-linéarités</li>
+      </ul>
+    </li>
+    <li>Traitement d'images
+      <ul>
+        <li>Réseaux à convolutions</li>
+        <li>Briques de convolution, pooling, unpooling, convolution à
+          stride fractionnelle</li>
+        <li>Modèles état de l’art</li>
+        <li>Classification d'images</li>
+        <li>Segmentation sémantique</li>
+        <li>Génération d'images</li>
+      </ul>
+    </li>
+    <li>Traitement du langage
+      <ul>
+        <li>Réseaux récurrents</li>
+        <li>Briques lstm, gru, embeddings</li>
+        <li>Mécanismes d’attention</li>
+        <li>Mécanismes de mémoire</li>
+        <li>Modèles état de l’art</li>
+        <li>Traduction automatique</li>
+        <li>Génération de texte</li>
+        <li>Classification de texte</li>
+      </ul>
+    </li>
+    <li></i>Ingénierie
+      <ul>
+        <li>Collection de métriques</li>
+        <li>Analyse d'apprentissages</li>
+        <li>Recherche d'hyperparamètres</li>
+      </ul>
+    </li>
+  </ul>
+  <h5>Durée</h5>
+  <p>3 jours (21 heures).</p> 
+  <h5>Prix</h5>
+  <p>2900 € par personne.</p>
+  <h5>Privatisation</h5>
+  <p>Possible sur demande.</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<!-- ---------------------------------------------------------------------- -->
+
+<div id="MLDeepLearningCVModal" class="reveal-modal" data-reveal>
+  <h4 class="modal-title">Computer vision en deep learning</h4>
+  <p>
+    Cette formation présente les fondamentaux du deep learning
+    appliqué à la vision par ordinateur (computer vision) ainsi que
+    les principales techniques utilisées dans l'industrie. Les travaux
+    pratiques utiliseront des données réelles et présenteront des
+    modèles récents.
+  </p>
+  <p>Certains points aborderont des sujets récents de recherche.</p>
+  <h5>Public</h5>
+  <p>Data scientists, programmeuses et programmeurs désireux
+    d'appliquer l'apprentissage automatique à des images.</p>
+  <h5>Vous serez capable de</h5>
+  <ul class="fa-ul ok-check">
+    <li>Construire et entraîner des modèles état de l’art en vision
+      par ordinateur</li>
+    <li>Analyser et optimiser l’apprentissage de vos modèles</li>
+    <li>Détecter des objets dans des images</li>
+    <li>Classifier des images</li>
+    <li>Ségmenter sémantiquement des images</li>
+    <li>Générer des images</li>
+    <li>Traduire des images</li>
+  </ul>
+  <h5>Prérequis</h5>
+  <p>Bon niveau général en informatique, familiarité avec le machine
+    learning classique (aucune connaissance requise sur le deep
+    learning ni la vision par ordinateur).</p>
+  <h5>Programme</h5>
+  <ul class="fa-ul ok-check">
+    <li>Introduction
+      <ul>
+        <li>Présentation du deep learning</li>
+        <li>Introduction à la vision par ordinateur</li>
+        <li>Présentation de technologies de vision par ordinateur état
+          de l’art</li>
+      </ul>
+    </li>
+    <li>Fondamentaux
+      <ul>
+        <li>Réseaux de neurones</li>
+        <li>Rétropropagation du gradient</li>
+        <li>Non-linéarités</li>
+      </ul>
+    </li>
+    <li>Réseaux de traitement des images
+      <ul>
+        <li>Réseaux à convolutions</li>
+        <li>Briques de convolution, pooling, unpooling, convolution à
+          stride fractionnelle</li>
+        <li>Mécanismes d’attention</li>
+        <li>Modèles état de l’art</li>
+      </ul>
+    </li>
+    <li></i>Applications
+      <ul>
+        <li>Classification d’images</li>
+        <li>Détection d'objets</li>
+        <li>Segmentations sémantique</li>
+        <li>Segmentation d'instances</li>
+        <li>Génération d'images</li>
+        <li>Traduction d'images</li>
+      </ul>
+    </li>
+    <li></i>Ingénierie
+      <ul>
+        <li>Collection de métriques</li>
+        <li>Analyse d'apprentissages</li>
+        <li>Recherche d'hyperparamètres</li>
+      </ul>
+    </li>
+  </ul>
+  <h5>Durée</h5>
+  <p>2 jours (14 heures).</p> 
+  <h5>Prix</h5>
+  <p>1900 € par personne.</p>
+  <h5>Privatisation</h5>
+  <p>Possible sur demande.</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<!-- ---------------------------------------------------------------------- -->
+
+<div id="MLDeepLearningNLPModal" class="reveal-modal" data-reveal>
+  <h4 class="modal-title">Natural Language Processing en deep learning</h4>
+  <p>Cette formation présente les fondamentaux du deep learning
+    appliqué au traitement du langage ainsi que les principales
+    techniques utilisées dans l’industrie. Les travaux pratiques
+    utiliseront des données réelles et présenteront des modèles
+    récents.</p>
+  <p>Certains points aborderont des sujets récents de recherche.</p>
+  <h5>Public</h5>
+  <p>Data scientists, programmeuses et programmeurs désireux
+    d'appliquer l'apprentissage automatique à des données
+    textuelles.</p>
+  <h5>Vous serez capable de</h5>
+  <ul class="fa-ul ok-check">
+    <li>Construire et entraîner des modèles état de l’art en
+      traitement du langage</li>
+    <li>Analyser et optimiser l’apprentissage de vos modèles</li>
+    <li>Traduire automatiquement des documents</li>
+    <li>Détecter la polarité (sentiment) de textes</li>
+    <li>Résumer automatiquement des documents</li>
+    <li>Générer du texte (chatbots)</li>
+  </ul>
+  <h5>Prérequis</h5>
+  <p>Bon niveau général en informatique, familiarité avec le machine
+    learning classique (aucune connaissance requise sur le deep
+    learning ni le traitement du langage).</p>
+  <h5>Programme</h5>
+  <ul class="fa-ul ok-check">
+    <li>Introduction
+      <ul>
+        <li>Présentation du deep learning</li>
+        <li>Introduction au traitement du langage</li>
+        <li>Présentation de technologies de traitement du langage état
+          de l'art</li>
+      </ul>
+    </li>
+    <li>Fondamentaux
+      <ul>
+        <li>Réseaux de neurones</li>
+        <li>Rétropropagation du gradient</li>
+        <li>Non-linéarités</li>
+      </ul>
+    </li>
+    <li>Réseaux de traitement du langage
+      <ul>
+        <li>Réseaux récurrents</li>
+        <li>Briques lstm, gru, softmax, embeddings</li>
+        <li>Mécanismes d’attention</li>
+        <li>Mécanismes de mémoire</li>
+        <li>Modèles état de l’art</li>
+      </ul>
+    </li>
+    <li>Applications
+      <ul>
+        <li>Traduction automatique</li>
+        <li>Résumé automatique</li>
+        <li>Génération de texte</li>
+        <li>Classification de texte</li>
+        <li>Détection de polarité (analyse de sentiment)</li>
+        <li>Modélisation de topic</li>
+      </ul>
+    </li>
+    <li>Ingénierie
+      <ul>
+        <li>Collection de métriques</li>
+        <li>Analyse d'apprentissages</li>
+        <li>Recherche d'hyperparamètres</li>
+      </ul>
+    </li>
+  </ul>
+  <h5>Durée</h5>
+  <p>2 jours (14 heures).</p> 
+  <h5>Prix</h5>
+  <p>1900 € par personne.</p>
+  <h5>Privatisation</h5>
+  <p>Possible sur demande.</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<!-- ---------------------------------------------------------------------- -->
+
 
 <article class="row">
-    <div class="columns small-12 medium-12 large-12">
-        <h2 class=" entry-title">Rejoindre la liste de diffusion</h2>
+  <div class="columns small-12 medium-12 large-12">
+    <h2 class=" entry-title">Rejoindre la liste de diffusion</h2>
 
-        <form id="idnewsletter" class="row">
-            <div class="columns small-12 medium-4 large-4">
-                <div class="entry-excerpt">
-                    <input type="text" name="entry.1586445777" id="name" placeholder="Nom">
-                </div>
-            </div>
-            <div class="columns small-12 medium-4 large-4">
-                <div class="entry-excerpt">
-                    <input type="email" name="entry.1306918449" id="email" placeholder="Email">
-                </div>
-            </div>
-            <div class="columns small-12 medium-4 large-4">
-                <div class="entry-excerpt">
-                    <button class="btn-default" onclick="wplook.postMailingList()">Rejoindre</button>
-                </div>
-            </div>
-
-
-      </form>
-        <div class="row">
-            <div class="columns small-12">
-                <div class="entry-excerpt">
-                    OU <a href="reserver.html">RESERVER DIRECTEMENT VOTRE PLACE</a><br><br>
-                </div>
-
-            </div>
+    <form id="idnewsletter" class="row">
+      <div class="columns small-12 medium-4 large-4">
+        <div class="entry-excerpt">
+          <input type="text" name="entry.1586445777" id="name" placeholder="Nom">
         </div>
+      </div>
+      <div class="columns small-12 medium-4 large-4">
+        <div class="entry-excerpt">
+          <input type="email" name="entry.1306918449" id="email" placeholder="Email">
+        </div>
+      </div>
+      <div class="columns small-12 medium-4 large-4">
+        <div class="entry-excerpt">
+          <button class="btn-default" onclick="wplook.postMailingList()">Rejoindre</button>
+        </div>
+      </div>
+
+
+    </form>
+    <div class="row">
+      <div class="columns small-12">
+        <div class="entry-excerpt">
+          OU <a href="reserver.html">RESERVER DIRECTEMENT VOTRE PLACE</a><br><br>
+        </div>
+
+      </div>
     </div>
+  </div>
 </article>
 
 <!-- Footer -->
 <div class="footer">
-    <div class="footer_bg" data-stellar-background-ratio="0.2" style="background-image: url('img/bg_buytikets.png');"></div>
+  <div class="footer_bg" data-stellar-background-ratio="0.2" style="background-image: url('img/bg_buytikets.png');"></div>
 
 
-    <!-- Copyright -->
-    <div class="footer_copyright">
-        <div class="row">
-            <div class="columns small-12 medium-12 large-12 center-content">
-                © Copyright ML Week. Tous droits réservés.
-            </div>
+  <!-- Copyright -->
+  <div class="footer_copyright">
+    <div class="row">
+      <div class="columns small-12 medium-12 large-12 center-content">
+        © Copyright ML Week. Tous droits réservés.
+      </div>
 
-        </div>
     </div>
+  </div>
 </div>
 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>

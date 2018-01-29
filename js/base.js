@@ -22,6 +22,16 @@ var wplook = (function ($) {
 
 		return false;
 	})
+	$('#deep-learning-cv').on('click', function(){
+		$('#MLDeepLearningCVModal').foundation('reveal', 'open');
+
+		return false;
+	})
+	$('#deep-learning-nlp').on('click', function(){
+		$('#MLDeepLearningNLPModal').foundation('reveal', 'open');
+
+		return false;
+	})
 	$('#techniques-ml').on('click', function(){
 		$('#MLTechniquesA').foundation('reveal', 'open');
 
